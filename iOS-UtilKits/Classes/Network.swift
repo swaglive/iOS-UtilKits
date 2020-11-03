@@ -10,6 +10,10 @@ import Foundation
 import SystemConfiguration
 import CoreTelephony
 
+public enum RadioAccess: String {
+    case unknown, wwan2g, wwan3g, wwan4g
+}
+
 @objcMembers
 public  class Network: NSObject {
     public static let shared = Network()
@@ -86,11 +90,7 @@ public  class Network: NSObject {
 
 // MARK: - Status Info
 extension Network {
-    
-    enum RadioAccess: String {
-        case unknown, wwan2g, wwan3g, wwan4g
-    }
-    
+        
     public var isWifiOr4gConnected: Bool {
         return isReachable && (isWifiConnected || radioAccess == .wwan4g)
     }
@@ -99,7 +99,7 @@ extension Network {
         return isReachable && flags?.contains(.isWWAN) == false
     }
     
-    var radioAccess: RadioAccess {
+    public var radioAccess: RadioAccess {
         switch CTTelephonyNetworkInfo().currentRadioAccessTechnology {
         case CTRadioAccessTechnologyGPRS, CTRadioAccessTechnologyEdge, CTRadioAccessTechnologyCDMA1x:
             return .wwan2g
