@@ -8,12 +8,12 @@
 
 import Foundation
 
-protocol AsyncHandlerQueueDelegate: class {
+public protocol AsyncHandlerQueueDelegate: class {
     func fetch<T>(object: T, completion: @escaping (()->()))
 }
 
 public class AsyncHandlerQueue<T> {
-    weak var delegate: AsyncHandlerQueueDelegate?
+    public weak var delegate: AsyncHandlerQueueDelegate?
     private var queue: [T] = []
 
     public init() {
