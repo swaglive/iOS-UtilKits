@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/focuspirit/iOS-UtilKits'
+  s.homepage         = 'https://github.com/swaglive/iOS-UtilKits'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'peter' => 'peter@swag.live' }
-  s.source           = { :git => 'https://github.com/focuspirit/iOS-UtilKits.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/swaglive/iOS-UtilKits.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
