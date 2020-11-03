@@ -91,11 +91,11 @@ extension Network {
         case unknown, wwan2g, wwan3g, wwan4g
     }
     
-    var isWifiOr4gConnected: Bool {
+    public var isWifiOr4gConnected: Bool {
         return isReachable && (isWifiConnected || radioAccess == .wwan4g)
     }
     
-    var isWifiConnected: Bool {
+    public var isWifiConnected: Bool {
         return isReachable && flags?.contains(.isWWAN) == false
     }
     
