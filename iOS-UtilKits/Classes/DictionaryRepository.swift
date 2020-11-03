@@ -13,6 +13,8 @@ public class DictionaryRepository {
     private var dictionary: [String: Any] = [:]
     private var storedKeys: [String] = []
     
+    public init() {}
+
     public func append(key: String, value: Any) {
         guard !isContains(key) else {
             return

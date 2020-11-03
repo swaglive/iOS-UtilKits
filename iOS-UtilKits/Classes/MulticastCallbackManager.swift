@@ -20,6 +20,8 @@ public class MulticastCallbackManager<CallbackType>: MulticastCallbackUnregister
     }
     public var observersDidChangeHandler: (() -> ())?
     
+    public init() {}
+    
     public func add(_ handler: CallbackType) -> CallbackToken {
         return MulticastCallbackRegistration(uuid: addHandlerAndGenerateToken(handler), unregisterResponder: self)
     }

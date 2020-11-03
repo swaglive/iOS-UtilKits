@@ -12,6 +12,8 @@ public class SynchronizedArray<T: Hashable> {
     private var arraySet = Set<T>()
     private let accessQueue = DispatchQueue(label: "SynchronizedArray-\(UUID().uuidString)", attributes: .concurrent)
 
+    public init() {}
+
     public func append(_ newElement: T) {
         self.accessQueue.async(flags:.barrier) {
             self.arraySet.insert(newElement)
