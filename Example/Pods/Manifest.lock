@@ -1,0 +1,16 @@
+PODS:
+  - iOS-UtilKits (0.1.0)
+
+DEPENDENCIES:
+  - iOS-UtilKits (from `../`)
+
+EXTERNAL SOURCES:
+  iOS-UtilKits:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOS-UtilKits: 821ee9e3167b672b1c0754a778a5cbe72f0dd04d
+
+PODFILE CHECKSUM: c8b8c42c4c2019476e23cf19d36e288012732692
+
+COCOAPODS: 1.7.5
