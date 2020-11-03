@@ -20,6 +20,10 @@
 		D090048F255134F700A55A02 /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090048A255134F700A55A02 /* Throttler.swift */; };
 		D0900490255134F700A55A02 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090048B255134F700A55A02 /* Network.swift */; };
 		D0900491255134F700A55A02 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090048B255134F700A55A02 /* Network.swift */; };
+		D090049325513B4B00A55A02 /* AttributedStringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090049225513B4B00A55A02 /* AttributedStringBuilder.swift */; };
+		D090049425513B4B00A55A02 /* AttributedStringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090049225513B4B00A55A02 /* AttributedStringBuilder.swift */; };
+		D090049625513BF800A55A02 /* AsyncHandlerQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090049525513BF800A55A02 /* AsyncHandlerQueue.swift */; };
+		D090049725513BF800A55A02 /* AsyncHandlerQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090049525513BF800A55A02 /* AsyncHandlerQueue.swift */; };
 		DB29A54528103C0E71AC4D12C92AF360 /* Pods-iOS-UtilKits_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -54,6 +58,8 @@
 		D0900489255134F700A55A02 /* DisplayLinkTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayLinkTimer.swift; path = "iOS-UtilKits/Classes/DisplayLinkTimer.swift"; sourceTree = "<group>"; };
 		D090048A255134F700A55A02 /* Throttler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Throttler.swift; path = "iOS-UtilKits/Classes/Throttler.swift"; sourceTree = "<group>"; };
 		D090048B255134F700A55A02 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Network.swift; path = "iOS-UtilKits/Classes/Network.swift"; sourceTree = "<group>"; };
+		D090049225513B4B00A55A02 /* AttributedStringBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttributedStringBuilder.swift; path = "iOS-UtilKits/Classes/AttributedStringBuilder.swift"; sourceTree = "<group>"; };
+		D090049525513BF800A55A02 /* AsyncHandlerQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsyncHandlerQueue.swift; path = "iOS-UtilKits/Classes/AsyncHandlerQueue.swift"; sourceTree = "<group>"; };
 		D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-UtilKits_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D516BD1A903C633EB5F8A8E73679B107 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D8DD5ED49D89349FDCFF34EF484C82E8 /* Pods_iOS_UtilKits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_UtilKits_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +105,8 @@
 		5F206C7822BC9702534BA41BAD5D82B7 /* iOS-UtilKits */ = {
 			isa = PBXGroup;
 			children = (
+				D090049525513BF800A55A02 /* AsyncHandlerQueue.swift */,
+				D090049225513B4B00A55A02 /* AttributedStringBuilder.swift */,
 				D0900486255134D800A55A02 /* Debouncer.swift */,
 				D0900489255134F700A55A02 /* DisplayLinkTimer.swift */,
 				D090048B255134F700A55A02 /* Network.swift */,
@@ -307,6 +315,8 @@
 				72BD16F09C7594EAA30832FABC925DC6 /* Pods-iOS-UtilKits_Tests-dummy.m in Sources */,
 				D0900488255134D800A55A02 /* Debouncer.swift in Sources */,
 				D090048F255134F700A55A02 /* Throttler.swift in Sources */,
+				D090049725513BF800A55A02 /* AsyncHandlerQueue.swift in Sources */,
+				D090049425513B4B00A55A02 /* AttributedStringBuilder.swift in Sources */,
 				D090048D255134F700A55A02 /* DisplayLinkTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +329,8 @@
 				D090048E255134F700A55A02 /* Throttler.swift in Sources */,
 				D0900490255134F700A55A02 /* Network.swift in Sources */,
 				D0900487255134D800A55A02 /* Debouncer.swift in Sources */,
+				D090049625513BF800A55A02 /* AsyncHandlerQueue.swift in Sources */,
+				D090049325513B4B00A55A02 /* AttributedStringBuilder.swift in Sources */,
 				D090048C255134F700A55A02 /* DisplayLinkTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
