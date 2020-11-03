@@ -10,6 +10,8 @@ import Foundation
 import CommonCrypto
 
 public struct MD5Processor {
+    public init() {}
+    
     public func base64Encoded(with url: URL) throws -> String? {
         guard let data = try md5File(url: url) else { return nil }
         return data.base64EncodedString()
