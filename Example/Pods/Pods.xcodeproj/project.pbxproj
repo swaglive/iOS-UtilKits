@@ -12,7 +12,14 @@
 		686D6CFC4305624906C3FA45E8CF9BE9 /* iOS-UtilKits-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 033355FEB9E3E93A9F8BE468DDF01DB5 /* iOS-UtilKits-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72BD16F09C7594EAA30832FABC925DC6 /* Pods-iOS-UtilKits_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D65E479871DA72D6C69CDF2B11EE31 /* Pods-iOS-UtilKits_Tests-dummy.m */; };
 		90B89B9F20A4D204CF24DB5A1860DFC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A968ED6B8A60497700A6A54F5707C8DE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C532C1F0C008D5CC00CE8DB2B9C70F31 /* ReplaceMe.swift */; };
+		D0900487255134D800A55A02 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0900486255134D800A55A02 /* Debouncer.swift */; };
+		D0900488255134D800A55A02 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0900486255134D800A55A02 /* Debouncer.swift */; };
+		D090048C255134F700A55A02 /* DisplayLinkTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0900489255134F700A55A02 /* DisplayLinkTimer.swift */; };
+		D090048D255134F700A55A02 /* DisplayLinkTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0900489255134F700A55A02 /* DisplayLinkTimer.swift */; };
+		D090048E255134F700A55A02 /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090048A255134F700A55A02 /* Throttler.swift */; };
+		D090048F255134F700A55A02 /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090048A255134F700A55A02 /* Throttler.swift */; };
+		D0900490255134F700A55A02 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090048B255134F700A55A02 /* Network.swift */; };
+		D0900491255134F700A55A02 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090048B255134F700A55A02 /* Network.swift */; };
 		DB29A54528103C0E71AC4D12C92AF360 /* Pods-iOS-UtilKits_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -42,8 +49,11 @@
 		AB5002C29D5D044B4E3AA026B55A1199 /* iOS-UtilKits.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "iOS-UtilKits.podspec"; sourceTree = "<group>"; tabWidth = 2; };
 		B311A9F1C27DE1C37F38F1E7737104E1 /* Pods-iOS-UtilKits_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-UtilKits_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B8D65E479871DA72D6C69CDF2B11EE31 /* Pods-iOS-UtilKits_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-UtilKits_Tests-dummy.m"; sourceTree = "<group>"; };
-		C532C1F0C008D5CC00CE8DB2B9C70F31 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "iOS-UtilKits/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
 		CDE2F49ECC9513D9D2DAFC7E42223E09 /* Pods-iOS-UtilKits_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-UtilKits_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0900486255134D800A55A02 /* Debouncer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Debouncer.swift; path = "iOS-UtilKits/Classes/Debouncer.swift"; sourceTree = "<group>"; };
+		D0900489255134F700A55A02 /* DisplayLinkTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayLinkTimer.swift; path = "iOS-UtilKits/Classes/DisplayLinkTimer.swift"; sourceTree = "<group>"; };
+		D090048A255134F700A55A02 /* Throttler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Throttler.swift; path = "iOS-UtilKits/Classes/Throttler.swift"; sourceTree = "<group>"; };
+		D090048B255134F700A55A02 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Network.swift; path = "iOS-UtilKits/Classes/Network.swift"; sourceTree = "<group>"; };
 		D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-UtilKits_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D516BD1A903C633EB5F8A8E73679B107 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D8DD5ED49D89349FDCFF34EF484C82E8 /* Pods_iOS_UtilKits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_UtilKits_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,7 +99,10 @@
 		5F206C7822BC9702534BA41BAD5D82B7 /* iOS-UtilKits */ = {
 			isa = PBXGroup;
 			children = (
-				C532C1F0C008D5CC00CE8DB2B9C70F31 /* ReplaceMe.swift */,
+				D0900486255134D800A55A02 /* Debouncer.swift */,
+				D0900489255134F700A55A02 /* DisplayLinkTimer.swift */,
+				D090048B255134F700A55A02 /* Network.swift */,
+				D090048A255134F700A55A02 /* Throttler.swift */,
 				82A97E9187CC554EA544F93EB782F8B7 /* Pod */,
 				30750F7928C7EC7D0C0EA5770D4A7B9B /* Support Files */,
 			);
@@ -243,6 +256,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					28B3A03323A845A384ED73A005866C53 = {
+						LastSwiftMigration = 1170;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -285,7 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0900491255134F700A55A02 /* Network.swift in Sources */,
 				72BD16F09C7594EAA30832FABC925DC6 /* Pods-iOS-UtilKits_Tests-dummy.m in Sources */,
+				D0900488255134D800A55A02 /* Debouncer.swift in Sources */,
+				D090048F255134F700A55A02 /* Throttler.swift in Sources */,
+				D090048D255134F700A55A02 /* DisplayLinkTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +316,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C57F3BBBA7F399A5D4F7F3807030795 /* iOS-UtilKits-dummy.m in Sources */,
-				A968ED6B8A60497700A6A54F5707C8DE /* ReplaceMe.swift in Sources */,
+				D090048E255134F700A55A02 /* Throttler.swift in Sources */,
+				D0900490255134F700A55A02 /* Network.swift in Sources */,
+				D0900487255134D800A55A02 /* Debouncer.swift in Sources */,
+				D090048C255134F700A55A02 /* DisplayLinkTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +340,7 @@
 			baseConfigurationReference = CDE2F49ECC9513D9D2DAFC7E42223E09 /* Pods-iOS-UtilKits_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -326,7 +352,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-iOS-UtilKits_Tests/Pods-iOS-UtilKits_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iOS-UtilKits_Tests/Pods-iOS-UtilKits_Tests.modulemap";
@@ -337,6 +363,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -424,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -486,7 +514,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -504,6 +532,7 @@
 			baseConfigurationReference = B311A9F1C27DE1C37F38F1E7737104E1 /* Pods-iOS-UtilKits_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -515,7 +544,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-iOS-UtilKits_Tests/Pods-iOS-UtilKits_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iOS-UtilKits_Tests/Pods-iOS-UtilKits_Tests.modulemap";
@@ -526,6 +555,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
