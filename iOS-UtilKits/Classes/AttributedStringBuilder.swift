@@ -9,7 +9,7 @@
 import Foundation
 
 public class AttributedStringBuilder {
-    private(set) var attributeds: [NSAttributedString.Key: Any] = [:]
+    public private(set) var attributeds: [NSAttributedString.Key: Any] = [:]
 
     @discardableResult public func font(_ font: UIFont) -> AttributedStringBuilder {
         attributeds[NSAttributedString.Key.font] = font
