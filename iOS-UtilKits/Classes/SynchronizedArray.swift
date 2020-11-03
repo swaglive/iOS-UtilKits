@@ -57,18 +57,18 @@ public class SynchronizedArray<T: Hashable> {
         return count
     }
     
-    var isEmpty: Bool {
+    public var isEmpty: Bool {
         return count == 0
     }
     
-    var array: [T] {
+    public var array: [T] {
         return Array(arraySet)
     }
 
 }
 
 extension SynchronizedArray {
-    func moveFirst(_ maxLength: Int) -> [T] {
+    public func moveFirst(_ maxLength: Int) -> [T] {
         var objectList = array
         
         let min = Swift.min(maxLength, objectList.count)
