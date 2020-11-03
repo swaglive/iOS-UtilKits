@@ -16,6 +16,9 @@ public class AsyncHandlerQueue<T> {
     weak var delegate: AsyncHandlerQueueDelegate?
     private var queue: [T] = []
 
+    public init() {
+    }
+    
     public func add(_ object: T) {
         queue.append(object)
         if queue.count == 1 { nextIfNeeded() }

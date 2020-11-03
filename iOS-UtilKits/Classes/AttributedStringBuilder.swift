@@ -11,6 +11,9 @@ import Foundation
 public class AttributedStringBuilder {
     public private(set) var attributeds: [NSAttributedString.Key: Any] = [:]
 
+    public init() {
+    }
+    
     @discardableResult public func font(_ font: UIFont) -> AttributedStringBuilder {
         attributeds[NSAttributedString.Key.font] = font
         return self
