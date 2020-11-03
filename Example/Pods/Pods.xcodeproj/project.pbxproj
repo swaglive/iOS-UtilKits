@@ -24,8 +24,6 @@
 		D090049425513B4B00A55A02 /* AttributedStringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090049225513B4B00A55A02 /* AttributedStringBuilder.swift */; };
 		D090049625513BF800A55A02 /* AsyncHandlerQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090049525513BF800A55A02 /* AsyncHandlerQueue.swift */; };
 		D090049725513BF800A55A02 /* AsyncHandlerQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090049525513BF800A55A02 /* AsyncHandlerQueue.swift */; };
-		D09004992551547E00A55A02 /* HeaderLinkInfoExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004982551547E00A55A02 /* HeaderLinkInfoExtractor.swift */; };
-		D090049A2551547E00A55A02 /* HeaderLinkInfoExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004982551547E00A55A02 /* HeaderLinkInfoExtractor.swift */; };
 		D090049C2551552A00A55A02 /* DeviceCharacteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090049B2551552A00A55A02 /* DeviceCharacteristic.swift */; };
 		D090049D2551552A00A55A02 /* DeviceCharacteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090049B2551552A00A55A02 /* DeviceCharacteristic.swift */; };
 		D090049F2551554A00A55A02 /* SimpleCoalescingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090049E2551554A00A55A02 /* SimpleCoalescingTimer.swift */; };
@@ -40,6 +38,12 @@
 		D09004AC2551565B00A55A02 /* MulticastCallbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004AA2551565B00A55A02 /* MulticastCallbackManager.swift */; };
 		D09004AE255156C600A55A02 /* DebugFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004AD255156C600A55A02 /* DebugFunctions.swift */; };
 		D09004AF255156C600A55A02 /* DebugFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004AD255156C600A55A02 /* DebugFunctions.swift */; };
+		D09004B32551698100A55A02 /* MD5Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004B22551698100A55A02 /* MD5Processor.swift */; };
+		D09004B42551698100A55A02 /* MD5Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004B22551698100A55A02 /* MD5Processor.swift */; };
+		D09004B6255169CF00A55A02 /* ImageSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004B5255169CF00A55A02 /* ImageSet.swift */; };
+		D09004B7255169CF00A55A02 /* ImageSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004B5255169CF00A55A02 /* ImageSet.swift */; };
+		D09004B925516A5400A55A02 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004B825516A5300A55A02 /* DisposeBag.swift */; };
+		D09004BA25516A5400A55A02 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004B825516A5300A55A02 /* DisposeBag.swift */; };
 		DB29A54528103C0E71AC4D12C92AF360 /* Pods-iOS-UtilKits_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -76,7 +80,6 @@
 		D090048B255134F700A55A02 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Network.swift; path = "iOS-UtilKits/Classes/Network.swift"; sourceTree = "<group>"; };
 		D090049225513B4B00A55A02 /* AttributedStringBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttributedStringBuilder.swift; path = "iOS-UtilKits/Classes/AttributedStringBuilder.swift"; sourceTree = "<group>"; };
 		D090049525513BF800A55A02 /* AsyncHandlerQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsyncHandlerQueue.swift; path = "iOS-UtilKits/Classes/AsyncHandlerQueue.swift"; sourceTree = "<group>"; };
-		D09004982551547E00A55A02 /* HeaderLinkInfoExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeaderLinkInfoExtractor.swift; path = "iOS-UtilKits/Classes/HeaderLinkInfoExtractor.swift"; sourceTree = "<group>"; };
 		D090049B2551552A00A55A02 /* DeviceCharacteristic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceCharacteristic.swift; path = "iOS-UtilKits/Classes/DeviceCharacteristic.swift"; sourceTree = "<group>"; };
 		D090049E2551554A00A55A02 /* SimpleCoalescingTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleCoalescingTimer.swift; path = "iOS-UtilKits/Classes/SimpleCoalescingTimer.swift"; sourceTree = "<group>"; };
 		D09004A1255155C400A55A02 /* DictionaryRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DictionaryRepository.swift; path = "iOS-UtilKits/Classes/DictionaryRepository.swift"; sourceTree = "<group>"; };
@@ -84,6 +87,9 @@
 		D09004A72551561C00A55A02 /* LimitObjectSetCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LimitObjectSetCache.swift; path = "iOS-UtilKits/Classes/LimitObjectSetCache.swift"; sourceTree = "<group>"; };
 		D09004AA2551565B00A55A02 /* MulticastCallbackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MulticastCallbackManager.swift; path = "iOS-UtilKits/Classes/MulticastCallbackManager.swift"; sourceTree = "<group>"; };
 		D09004AD255156C600A55A02 /* DebugFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DebugFunctions.swift; path = "iOS-UtilKits/Classes/DebugFunctions.swift"; sourceTree = "<group>"; };
+		D09004B22551698100A55A02 /* MD5Processor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MD5Processor.swift; path = "iOS-UtilKits/Classes/MD5Processor.swift"; sourceTree = "<group>"; };
+		D09004B5255169CF00A55A02 /* ImageSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageSet.swift; path = "iOS-UtilKits/Classes/ImageSet.swift"; sourceTree = "<group>"; };
+		D09004B825516A5300A55A02 /* DisposeBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisposeBag.swift; path = "iOS-UtilKits/Classes/DisposeBag.swift"; sourceTree = "<group>"; };
 		D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-UtilKits_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D516BD1A903C633EB5F8A8E73679B107 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D8DD5ED49D89349FDCFF34EF484C82E8 /* Pods_iOS_UtilKits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_UtilKits_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +135,9 @@
 		5F206C7822BC9702534BA41BAD5D82B7 /* iOS-UtilKits */ = {
 			isa = PBXGroup;
 			children = (
+				D09004B825516A5300A55A02 /* DisposeBag.swift */,
+				D09004B5255169CF00A55A02 /* ImageSet.swift */,
+				D09004B22551698100A55A02 /* MD5Processor.swift */,
 				D09004AD255156C600A55A02 /* DebugFunctions.swift */,
 				D09004AA2551565B00A55A02 /* MulticastCallbackManager.swift */,
 				D09004A72551561C00A55A02 /* LimitObjectSetCache.swift */,
@@ -136,7 +145,6 @@
 				D09004A1255155C400A55A02 /* DictionaryRepository.swift */,
 				D090049E2551554A00A55A02 /* SimpleCoalescingTimer.swift */,
 				D090049B2551552A00A55A02 /* DeviceCharacteristic.swift */,
-				D09004982551547E00A55A02 /* HeaderLinkInfoExtractor.swift */,
 				D090049525513BF800A55A02 /* AsyncHandlerQueue.swift */,
 				D090049225513B4B00A55A02 /* AttributedStringBuilder.swift */,
 				D0900486255134D800A55A02 /* Debouncer.swift */,
@@ -351,13 +359,15 @@
 				72BD16F09C7594EAA30832FABC925DC6 /* Pods-iOS-UtilKits_Tests-dummy.m in Sources */,
 				D0900488255134D800A55A02 /* Debouncer.swift in Sources */,
 				D090048F255134F700A55A02 /* Throttler.swift in Sources */,
+				D09004B7255169CF00A55A02 /* ImageSet.swift in Sources */,
 				D09004AC2551565B00A55A02 /* MulticastCallbackManager.swift in Sources */,
 				D090049725513BF800A55A02 /* AsyncHandlerQueue.swift in Sources */,
 				D090049425513B4B00A55A02 /* AttributedStringBuilder.swift in Sources */,
 				D090048D255134F700A55A02 /* DisplayLinkTimer.swift in Sources */,
+				D09004B42551698100A55A02 /* MD5Processor.swift in Sources */,
 				D09004A02551554A00A55A02 /* SimpleCoalescingTimer.swift in Sources */,
 				D090049D2551552A00A55A02 /* DeviceCharacteristic.swift in Sources */,
-				D090049A2551547E00A55A02 /* HeaderLinkInfoExtractor.swift in Sources */,
+				D09004BA25516A5400A55A02 /* DisposeBag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,13 +383,15 @@
 				D090048E255134F700A55A02 /* Throttler.swift in Sources */,
 				D0900490255134F700A55A02 /* Network.swift in Sources */,
 				D0900487255134D800A55A02 /* Debouncer.swift in Sources */,
+				D09004B6255169CF00A55A02 /* ImageSet.swift in Sources */,
 				D09004AB2551565B00A55A02 /* MulticastCallbackManager.swift in Sources */,
 				D090049625513BF800A55A02 /* AsyncHandlerQueue.swift in Sources */,
 				D090049325513B4B00A55A02 /* AttributedStringBuilder.swift in Sources */,
 				D090048C255134F700A55A02 /* DisplayLinkTimer.swift in Sources */,
+				D09004B32551698100A55A02 /* MD5Processor.swift in Sources */,
 				D090049F2551554A00A55A02 /* SimpleCoalescingTimer.swift in Sources */,
 				D090049C2551552A00A55A02 /* DeviceCharacteristic.swift in Sources */,
-				D09004992551547E00A55A02 /* HeaderLinkInfoExtractor.swift in Sources */,
+				D09004B925516A5400A55A02 /* DisposeBag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
