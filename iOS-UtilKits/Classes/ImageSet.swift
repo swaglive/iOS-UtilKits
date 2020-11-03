@@ -34,7 +34,7 @@ public class ImageSet: NSObject {
 
 public struct ImageSize {
     
-    let width, height: Int
+    public let width, height: Int
     
     public var scaledWidth: Int { return width * Int(UIScreen.main.scale) }
     public var scaledHeight: Int { return height * Int(UIScreen.main.scale) }
