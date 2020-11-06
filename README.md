@@ -22,8 +22,5 @@ pod 'iOS-UtilKits'
 
 ## Author
 
-peter, peter@swag.live
+SWAG
 
-## License
-
-iOS-UtilKits is available under the MIT license. See the LICENSE file for more info.

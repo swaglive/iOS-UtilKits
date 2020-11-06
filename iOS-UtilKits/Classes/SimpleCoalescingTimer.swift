@@ -3,7 +3,7 @@
 //  lit
 //
 //  Created by Mike Yu on 2016/10/22.
-//  Copyright © 2016年 17 Media. All rights reserved.
+//  Copyright © SWAG. All rights reserved.
 //
 
 import Foundation

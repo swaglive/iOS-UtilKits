@@ -3,7 +3,7 @@
 //  schat
 //
 //  Created by peter on 2019/5/8.
-//  Copyright © 2019 Machipopo Corp. All rights reserved.
+//  Copyright © SWAG. All rights reserved.
 //
 
 import Foundation

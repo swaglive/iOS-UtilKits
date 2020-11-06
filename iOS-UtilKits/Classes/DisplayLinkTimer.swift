@@ -3,7 +3,7 @@
 //  swag
 //
 //  Created by peter on 2018/3/1.
-//  Copyright © 2018年 Machipopo Corp. All rights reserved.
+//  Copyright © SWAG. All rights reserved.
 //
 
 import Foundation
