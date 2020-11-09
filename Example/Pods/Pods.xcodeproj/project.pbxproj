@@ -52,11 +52,11 @@
 		D0CC1F892558EF1900D87F48 /* SWDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F882558EF1900D87F48 /* SWDateFormatter.swift */; };
 		D0CC1F8C2558EF5400D87F48 /* SWMulticastCallbackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F8A2558EF5400D87F48 /* SWMulticastCallbackManager.m */; };
 		D0CC1F8D2558EF5400D87F48 /* SWMulticastCallbackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1F8B2558EF5400D87F48 /* SWMulticastCallbackManager.h */; };
-		D0CC1F902558EF8400D87F48 /* FreeTouchDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1F8E2558EF8400D87F48 /* FreeTouchDetector.h */; };
-		D0CC1F912558EF8400D87F48 /* FreeTouchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F8F2558EF8400D87F48 /* FreeTouchDetector.m */; };
 		D0CC1F932558F01600D87F48 /* DataFileAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F922558F01600D87F48 /* DataFileAccess.swift */; };
 		D0CC1F9B2558F1CB00D87F48 /* AVURLAsset+Swag.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F992558F1CB00D87F48 /* AVURLAsset+Swag.m */; };
 		D0CC1F9C2558F1CB00D87F48 /* AVURLAsset+Swag.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1F9A2558F1CB00D87F48 /* AVURLAsset+Swag.h */; };
+		D0CC1F9F2558F64B00D87F48 /* FreeTouchDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1F9D2558F64B00D87F48 /* FreeTouchDetector.h */; };
+		D0CC1FA02558F64B00D87F48 /* FreeTouchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F9E2558F64B00D87F48 /* FreeTouchDetector.m */; };
 		DB29A54528103C0E71AC4D12C92AF360 /* Pods-iOS-UtilKits_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -111,11 +111,11 @@
 		D0CC1F882558EF1900D87F48 /* SWDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWDateFormatter.swift; path = "iOS-UtilKits/Classes/SWDateFormatter.swift"; sourceTree = "<group>"; };
 		D0CC1F8A2558EF5400D87F48 /* SWMulticastCallbackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWMulticastCallbackManager.m; path = "iOS-UtilKits/Classes/SWMulticastCallbackManager.m"; sourceTree = "<group>"; };
 		D0CC1F8B2558EF5400D87F48 /* SWMulticastCallbackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMulticastCallbackManager.h; path = "iOS-UtilKits/Classes/SWMulticastCallbackManager.h"; sourceTree = "<group>"; };
-		D0CC1F8E2558EF8400D87F48 /* FreeTouchDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FreeTouchDetector.h; path = "iOS-UtilKits/Classes/FreeTouchDetector.h"; sourceTree = "<group>"; };
-		D0CC1F8F2558EF8400D87F48 /* FreeTouchDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FreeTouchDetector.m; path = "iOS-UtilKits/Classes/FreeTouchDetector.m"; sourceTree = "<group>"; };
 		D0CC1F922558F01600D87F48 /* DataFileAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataFileAccess.swift; path = "iOS-UtilKits/Classes/DataFileAccess.swift"; sourceTree = "<group>"; };
 		D0CC1F992558F1CB00D87F48 /* AVURLAsset+Swag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AVURLAsset+Swag.m"; path = "iOS-UtilKits/Classes/AVURLAsset+Swag.m"; sourceTree = "<group>"; };
 		D0CC1F9A2558F1CB00D87F48 /* AVURLAsset+Swag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AVURLAsset+Swag.h"; path = "iOS-UtilKits/Classes/AVURLAsset+Swag.h"; sourceTree = "<group>"; };
+		D0CC1F9D2558F64B00D87F48 /* FreeTouchDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FreeTouchDetector.h; path = "iOS-UtilKits/Classes/FreeTouchDetector.h"; sourceTree = "<group>"; };
+		D0CC1F9E2558F64B00D87F48 /* FreeTouchDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FreeTouchDetector.m; path = "iOS-UtilKits/Classes/FreeTouchDetector.m"; sourceTree = "<group>"; };
 		D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-UtilKits_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D516BD1A903C633EB5F8A8E73679B107 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D8DD5ED49D89349FDCFF34EF484C82E8 /* Pods_iOS_UtilKits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_UtilKits_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -182,9 +182,9 @@
 				D090048B255134F700A55A02 /* Network.swift */,
 				D090048A255134F700A55A02 /* Throttler.swift */,
 				D0CC1F7D2558EC3C00D87F48 /* SWShareTool.swift */,
-				D0CC1F8E2558EF8400D87F48 /* FreeTouchDetector.h */,
-				D0CC1F8F2558EF8400D87F48 /* FreeTouchDetector.m */,
 				D0CC1F922558F01600D87F48 /* DataFileAccess.swift */,
+				D0CC1F9D2558F64B00D87F48 /* FreeTouchDetector.h */,
+				D0CC1F9E2558F64B00D87F48 /* FreeTouchDetector.m */,
 				82A97E9187CC554EA544F93EB782F8B7 /* Pod */,
 				30750F7928C7EC7D0C0EA5770D4A7B9B /* Support Files */,
 			);
@@ -307,9 +307,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0CC1F902558EF8400D87F48 /* FreeTouchDetector.h in Headers */,
 				D0CC1F842558ED3800D87F48 /* SWAppNumberFormatters.h in Headers */,
 				D0CC1F9C2558F1CB00D87F48 /* AVURLAsset+Swag.h in Headers */,
+				D0CC1F9F2558F64B00D87F48 /* FreeTouchDetector.h in Headers */,
 				686D6CFC4305624906C3FA45E8CF9BE9 /* iOS-UtilKits-umbrella.h in Headers */,
 				D0CC1F8D2558EF5400D87F48 /* SWMulticastCallbackManager.h in Headers */,
 			);
@@ -440,7 +440,7 @@
 				5C57F3BBBA7F399A5D4F7F3807030795 /* iOS-UtilKits-dummy.m in Sources */,
 				D09004A5255155F100A55A02 /* SynchronizedArray.swift in Sources */,
 				D09004AE255156C600A55A02 /* DebugFunctions.swift in Sources */,
-				D0CC1F912558EF8400D87F48 /* FreeTouchDetector.m in Sources */,
+				D0CC1FA02558F64B00D87F48 /* FreeTouchDetector.m in Sources */,
 				D09004A2255155C400A55A02 /* DictionaryRepository.swift in Sources */,
 				D0CC1F852558ED3800D87F48 /* SWAppNumberFormatters.m in Sources */,
 				D0CC1F7E2558EC3C00D87F48 /* SWShareTool.swift in Sources */,

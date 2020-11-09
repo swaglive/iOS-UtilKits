@@ -9,12 +9,10 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
 @interface FreeTouchDetector : UIGestureRecognizer
 
 /// If you want to cancel touch action on subviews, then set `YES`. Default is `NO`.
 @property (nonatomic, assign) BOOL cancelTouchOnSubview;
 
 @end
-
 NS_ASSUME_NONNULL_END
