@@ -3,7 +3,7 @@
 //  swag
 //
 //  Created by Mike Yu on 21/06/2017.
-//  Copyright © 2017 Machipopo Corp. All rights reserved.
+//  Copyright © 2017 SWAG. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

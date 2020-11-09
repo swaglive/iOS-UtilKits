@@ -48,6 +48,15 @@
 		D0CC1F812558ECCA00D87F48 /* TaiwanTimezoneDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F802558ECC900D87F48 /* TaiwanTimezoneDateFormatter.swift */; };
 		D0CC1F842558ED3800D87F48 /* SWAppNumberFormatters.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1F822558ED3800D87F48 /* SWAppNumberFormatters.h */; };
 		D0CC1F852558ED3800D87F48 /* SWAppNumberFormatters.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F832558ED3800D87F48 /* SWAppNumberFormatters.m */; };
+		D0CC1F872558EF0400D87F48 /* IntegerShorteningFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F862558EF0400D87F48 /* IntegerShorteningFormatter.swift */; };
+		D0CC1F892558EF1900D87F48 /* SWDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F882558EF1900D87F48 /* SWDateFormatter.swift */; };
+		D0CC1F8C2558EF5400D87F48 /* SWMulticastCallbackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F8A2558EF5400D87F48 /* SWMulticastCallbackManager.m */; };
+		D0CC1F8D2558EF5400D87F48 /* SWMulticastCallbackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1F8B2558EF5400D87F48 /* SWMulticastCallbackManager.h */; };
+		D0CC1F902558EF8400D87F48 /* FreeTouchDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1F8E2558EF8400D87F48 /* FreeTouchDetector.h */; };
+		D0CC1F912558EF8400D87F48 /* FreeTouchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F8F2558EF8400D87F48 /* FreeTouchDetector.m */; };
+		D0CC1F932558F01600D87F48 /* DataFileAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F922558F01600D87F48 /* DataFileAccess.swift */; };
+		D0CC1F9B2558F1CB00D87F48 /* AVURLAsset+Swag.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F992558F1CB00D87F48 /* AVURLAsset+Swag.m */; };
+		D0CC1F9C2558F1CB00D87F48 /* AVURLAsset+Swag.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1F9A2558F1CB00D87F48 /* AVURLAsset+Swag.h */; };
 		DB29A54528103C0E71AC4D12C92AF360 /* Pods-iOS-UtilKits_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -98,6 +107,15 @@
 		D0CC1F802558ECC900D87F48 /* TaiwanTimezoneDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaiwanTimezoneDateFormatter.swift; path = "iOS-UtilKits/Classes/TaiwanTimezoneDateFormatter.swift"; sourceTree = "<group>"; };
 		D0CC1F822558ED3800D87F48 /* SWAppNumberFormatters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWAppNumberFormatters.h; path = "iOS-UtilKits/Classes/SWAppNumberFormatters.h"; sourceTree = "<group>"; };
 		D0CC1F832558ED3800D87F48 /* SWAppNumberFormatters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWAppNumberFormatters.m; path = "iOS-UtilKits/Classes/SWAppNumberFormatters.m"; sourceTree = "<group>"; };
+		D0CC1F862558EF0400D87F48 /* IntegerShorteningFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntegerShorteningFormatter.swift; path = "iOS-UtilKits/Classes/IntegerShorteningFormatter.swift"; sourceTree = "<group>"; };
+		D0CC1F882558EF1900D87F48 /* SWDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWDateFormatter.swift; path = "iOS-UtilKits/Classes/SWDateFormatter.swift"; sourceTree = "<group>"; };
+		D0CC1F8A2558EF5400D87F48 /* SWMulticastCallbackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWMulticastCallbackManager.m; path = "iOS-UtilKits/Classes/SWMulticastCallbackManager.m"; sourceTree = "<group>"; };
+		D0CC1F8B2558EF5400D87F48 /* SWMulticastCallbackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMulticastCallbackManager.h; path = "iOS-UtilKits/Classes/SWMulticastCallbackManager.h"; sourceTree = "<group>"; };
+		D0CC1F8E2558EF8400D87F48 /* FreeTouchDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FreeTouchDetector.h; path = "iOS-UtilKits/Classes/FreeTouchDetector.h"; sourceTree = "<group>"; };
+		D0CC1F8F2558EF8400D87F48 /* FreeTouchDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FreeTouchDetector.m; path = "iOS-UtilKits/Classes/FreeTouchDetector.m"; sourceTree = "<group>"; };
+		D0CC1F922558F01600D87F48 /* DataFileAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataFileAccess.swift; path = "iOS-UtilKits/Classes/DataFileAccess.swift"; sourceTree = "<group>"; };
+		D0CC1F992558F1CB00D87F48 /* AVURLAsset+Swag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AVURLAsset+Swag.m"; path = "iOS-UtilKits/Classes/AVURLAsset+Swag.m"; sourceTree = "<group>"; };
+		D0CC1F9A2558F1CB00D87F48 /* AVURLAsset+Swag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AVURLAsset+Swag.h"; path = "iOS-UtilKits/Classes/AVURLAsset+Swag.h"; sourceTree = "<group>"; };
 		D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-UtilKits_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D516BD1A903C633EB5F8A8E73679B107 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D8DD5ED49D89349FDCFF34EF484C82E8 /* Pods_iOS_UtilKits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_UtilKits_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,12 +161,15 @@
 		5F206C7822BC9702534BA41BAD5D82B7 /* iOS-UtilKits */ = {
 			isa = PBXGroup;
 			children = (
+				D0CC1F982558F18F00D87F48 /* ObjC+Extension */,
 				D0CC1F7F2558ECB700D87F48 /* Formatter */,
 				D09004B825516A5300A55A02 /* DisposeBag.swift */,
 				D09004B5255169CF00A55A02 /* ImageSet.swift */,
 				D09004B22551698100A55A02 /* MD5Processor.swift */,
 				D09004AD255156C600A55A02 /* DebugFunctions.swift */,
 				D09004AA2551565B00A55A02 /* MulticastCallbackManager.swift */,
+				D0CC1F8B2558EF5400D87F48 /* SWMulticastCallbackManager.h */,
+				D0CC1F8A2558EF5400D87F48 /* SWMulticastCallbackManager.m */,
 				D09004A72551561C00A55A02 /* LimitObjectSetCache.swift */,
 				D09004A4255155F100A55A02 /* SynchronizedArray.swift */,
 				D09004A1255155C400A55A02 /* DictionaryRepository.swift */,
@@ -161,6 +182,9 @@
 				D090048B255134F700A55A02 /* Network.swift */,
 				D090048A255134F700A55A02 /* Throttler.swift */,
 				D0CC1F7D2558EC3C00D87F48 /* SWShareTool.swift */,
+				D0CC1F8E2558EF8400D87F48 /* FreeTouchDetector.h */,
+				D0CC1F8F2558EF8400D87F48 /* FreeTouchDetector.m */,
+				D0CC1F922558F01600D87F48 /* DataFileAccess.swift */,
 				82A97E9187CC554EA544F93EB782F8B7 /* Pod */,
 				30750F7928C7EC7D0C0EA5770D4A7B9B /* Support Files */,
 			);
@@ -216,11 +240,22 @@
 		D0CC1F7F2558ECB700D87F48 /* Formatter */ = {
 			isa = PBXGroup;
 			children = (
+				D0CC1F882558EF1900D87F48 /* SWDateFormatter.swift */,
+				D0CC1F862558EF0400D87F48 /* IntegerShorteningFormatter.swift */,
 				D0CC1F822558ED3800D87F48 /* SWAppNumberFormatters.h */,
 				D0CC1F832558ED3800D87F48 /* SWAppNumberFormatters.m */,
 				D0CC1F802558ECC900D87F48 /* TaiwanTimezoneDateFormatter.swift */,
 			);
 			name = Formatter;
+			sourceTree = "<group>";
+		};
+		D0CC1F982558F18F00D87F48 /* ObjC+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D0CC1F9A2558F1CB00D87F48 /* AVURLAsset+Swag.h */,
+				D0CC1F992558F1CB00D87F48 /* AVURLAsset+Swag.m */,
+			);
+			name = "ObjC+Extension";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -272,8 +307,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CC1F902558EF8400D87F48 /* FreeTouchDetector.h in Headers */,
 				D0CC1F842558ED3800D87F48 /* SWAppNumberFormatters.h in Headers */,
+				D0CC1F9C2558F1CB00D87F48 /* AVURLAsset+Swag.h in Headers */,
 				686D6CFC4305624906C3FA45E8CF9BE9 /* iOS-UtilKits-umbrella.h in Headers */,
+				D0CC1F8D2558EF5400D87F48 /* SWMulticastCallbackManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,15 +435,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CC1F892558EF1900D87F48 /* SWDateFormatter.swift in Sources */,
 				D09004A82551561C00A55A02 /* LimitObjectSetCache.swift in Sources */,
 				5C57F3BBBA7F399A5D4F7F3807030795 /* iOS-UtilKits-dummy.m in Sources */,
 				D09004A5255155F100A55A02 /* SynchronizedArray.swift in Sources */,
 				D09004AE255156C600A55A02 /* DebugFunctions.swift in Sources */,
+				D0CC1F912558EF8400D87F48 /* FreeTouchDetector.m in Sources */,
 				D09004A2255155C400A55A02 /* DictionaryRepository.swift in Sources */,
 				D0CC1F852558ED3800D87F48 /* SWAppNumberFormatters.m in Sources */,
 				D0CC1F7E2558EC3C00D87F48 /* SWShareTool.swift in Sources */,
 				D090048E255134F700A55A02 /* Throttler.swift in Sources */,
 				D0900490255134F700A55A02 /* Network.swift in Sources */,
+				D0CC1F872558EF0400D87F48 /* IntegerShorteningFormatter.swift in Sources */,
 				D0900487255134D800A55A02 /* Debouncer.swift in Sources */,
 				D09004B6255169CF00A55A02 /* ImageSet.swift in Sources */,
 				D09004AB2551565B00A55A02 /* MulticastCallbackManager.swift in Sources */,
@@ -413,6 +454,9 @@
 				D090049325513B4B00A55A02 /* AttributedStringBuilder.swift in Sources */,
 				D090048C255134F700A55A02 /* DisplayLinkTimer.swift in Sources */,
 				D09004B32551698100A55A02 /* MD5Processor.swift in Sources */,
+				D0CC1F8C2558EF5400D87F48 /* SWMulticastCallbackManager.m in Sources */,
+				D0CC1F932558F01600D87F48 /* DataFileAccess.swift in Sources */,
+				D0CC1F9B2558F1CB00D87F48 /* AVURLAsset+Swag.m in Sources */,
 				D0CC1F812558ECCA00D87F48 /* TaiwanTimezoneDateFormatter.swift in Sources */,
 				D090049F2551554A00A55A02 /* SimpleCoalescingTimer.swift in Sources */,
 				D090049C2551552A00A55A02 /* DeviceCharacteristic.swift in Sources */,
