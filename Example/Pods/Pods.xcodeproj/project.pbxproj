@@ -44,6 +44,10 @@
 		D09004B7255169CF00A55A02 /* ImageSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004B5255169CF00A55A02 /* ImageSet.swift */; };
 		D09004B925516A5400A55A02 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004B825516A5300A55A02 /* DisposeBag.swift */; };
 		D09004BA25516A5400A55A02 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004B825516A5300A55A02 /* DisposeBag.swift */; };
+		D0CC1F7E2558EC3C00D87F48 /* SWShareTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F7D2558EC3C00D87F48 /* SWShareTool.swift */; };
+		D0CC1F812558ECCA00D87F48 /* TaiwanTimezoneDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F802558ECC900D87F48 /* TaiwanTimezoneDateFormatter.swift */; };
+		D0CC1F842558ED3800D87F48 /* SWAppNumberFormatters.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1F822558ED3800D87F48 /* SWAppNumberFormatters.h */; };
+		D0CC1F852558ED3800D87F48 /* SWAppNumberFormatters.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F832558ED3800D87F48 /* SWAppNumberFormatters.m */; };
 		DB29A54528103C0E71AC4D12C92AF360 /* Pods-iOS-UtilKits_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -90,6 +94,10 @@
 		D09004B22551698100A55A02 /* MD5Processor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MD5Processor.swift; path = "iOS-UtilKits/Classes/MD5Processor.swift"; sourceTree = "<group>"; };
 		D09004B5255169CF00A55A02 /* ImageSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageSet.swift; path = "iOS-UtilKits/Classes/ImageSet.swift"; sourceTree = "<group>"; };
 		D09004B825516A5300A55A02 /* DisposeBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisposeBag.swift; path = "iOS-UtilKits/Classes/DisposeBag.swift"; sourceTree = "<group>"; };
+		D0CC1F7D2558EC3C00D87F48 /* SWShareTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWShareTool.swift; path = "iOS-UtilKits/Classes/SWShareTool.swift"; sourceTree = "<group>"; };
+		D0CC1F802558ECC900D87F48 /* TaiwanTimezoneDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaiwanTimezoneDateFormatter.swift; path = "iOS-UtilKits/Classes/TaiwanTimezoneDateFormatter.swift"; sourceTree = "<group>"; };
+		D0CC1F822558ED3800D87F48 /* SWAppNumberFormatters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWAppNumberFormatters.h; path = "iOS-UtilKits/Classes/SWAppNumberFormatters.h"; sourceTree = "<group>"; };
+		D0CC1F832558ED3800D87F48 /* SWAppNumberFormatters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWAppNumberFormatters.m; path = "iOS-UtilKits/Classes/SWAppNumberFormatters.m"; sourceTree = "<group>"; };
 		D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-UtilKits_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D516BD1A903C633EB5F8A8E73679B107 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D8DD5ED49D89349FDCFF34EF484C82E8 /* Pods_iOS_UtilKits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_UtilKits_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +143,7 @@
 		5F206C7822BC9702534BA41BAD5D82B7 /* iOS-UtilKits */ = {
 			isa = PBXGroup;
 			children = (
+				D0CC1F7F2558ECB700D87F48 /* Formatter */,
 				D09004B825516A5300A55A02 /* DisposeBag.swift */,
 				D09004B5255169CF00A55A02 /* ImageSet.swift */,
 				D09004B22551698100A55A02 /* MD5Processor.swift */,
@@ -151,6 +160,7 @@
 				D0900489255134F700A55A02 /* DisplayLinkTimer.swift */,
 				D090048B255134F700A55A02 /* Network.swift */,
 				D090048A255134F700A55A02 /* Throttler.swift */,
+				D0CC1F7D2558EC3C00D87F48 /* SWShareTool.swift */,
 				82A97E9187CC554EA544F93EB782F8B7 /* Pod */,
 				30750F7928C7EC7D0C0EA5770D4A7B9B /* Support Files */,
 			);
@@ -203,6 +213,16 @@
 			);
 			sourceTree = "<group>";
 		};
+		D0CC1F7F2558ECB700D87F48 /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				D0CC1F822558ED3800D87F48 /* SWAppNumberFormatters.h */,
+				D0CC1F832558ED3800D87F48 /* SWAppNumberFormatters.m */,
+				D0CC1F802558ECC900D87F48 /* TaiwanTimezoneDateFormatter.swift */,
+			);
+			name = Formatter;
+			sourceTree = "<group>";
+		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +272,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CC1F842558ED3800D87F48 /* SWAppNumberFormatters.h in Headers */,
 				686D6CFC4305624906C3FA45E8CF9BE9 /* iOS-UtilKits-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +325,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = SWAG;
 				TargetAttributes = {
 					28B3A03323A845A384ED73A005866C53 = {
 						LastSwiftMigration = 1170;
@@ -380,6 +402,8 @@
 				D09004A5255155F100A55A02 /* SynchronizedArray.swift in Sources */,
 				D09004AE255156C600A55A02 /* DebugFunctions.swift in Sources */,
 				D09004A2255155C400A55A02 /* DictionaryRepository.swift in Sources */,
+				D0CC1F852558ED3800D87F48 /* SWAppNumberFormatters.m in Sources */,
+				D0CC1F7E2558EC3C00D87F48 /* SWShareTool.swift in Sources */,
 				D090048E255134F700A55A02 /* Throttler.swift in Sources */,
 				D0900490255134F700A55A02 /* Network.swift in Sources */,
 				D0900487255134D800A55A02 /* Debouncer.swift in Sources */,
@@ -389,6 +413,7 @@
 				D090049325513B4B00A55A02 /* AttributedStringBuilder.swift in Sources */,
 				D090048C255134F700A55A02 /* DisplayLinkTimer.swift in Sources */,
 				D09004B32551698100A55A02 /* MD5Processor.swift in Sources */,
+				D0CC1F812558ECCA00D87F48 /* TaiwanTimezoneDateFormatter.swift in Sources */,
 				D090049F2551554A00A55A02 /* SimpleCoalescingTimer.swift in Sources */,
 				D090049C2551552A00A55A02 /* DeviceCharacteristic.swift in Sources */,
 				D09004B925516A5400A55A02 /* DisposeBag.swift in Sources */,
