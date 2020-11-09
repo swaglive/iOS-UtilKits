@@ -12,9 +12,13 @@ public protocol URLStringConvertible {
     func createBuilder() -> URLStringBuilder
 }
 
-public protocol BuilderProtocol {
+public protocol BuilderProtocol: class {
     associatedtype Element
     func build() -> Element
+}
+
+extension BuilderProtocol {
+    public func build() -> Element { Element.self as! Self.Element }
 }
 
 extension String : URLStringConvertible {
@@ -105,7 +109,7 @@ public class APIRequest: BuilderProtocol {
         return self
     }
     
-    public func build() -> URLRequest {
+    public var baseRequest: URLRequest {
         if method == .head || method == .get {
             var components: [(String, String)] = []
             for (key, value) in parameters {
@@ -146,6 +150,7 @@ public class APIRequest: BuilderProtocol {
 }
 
 fileprivate extension APIRequest {
+
     private func setBody(_ request: inout URLRequest, body: Data?, parameters: [String:Any]) {
         if !(method == .head || method == .get) {
             request.httpBody = parameterData(parameters)
