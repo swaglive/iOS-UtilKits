@@ -12,6 +12,11 @@ public protocol URLStringConvertible {
     func createBuilder() -> URLStringBuilder
 }
 
+public protocol BuilderProtocol {
+    associatedtype Element
+    func build() -> Element
+}
+
 extension String : URLStringConvertible {
     public func createBuilder() -> URLStringBuilder {
         URLStringBuilder(urlString: self)
@@ -24,10 +29,11 @@ extension URLStringBuilder : URLStringConvertible {
     }
 }
 
-public class APIRequest {
+public class APIRequest: BuilderProtocol {
+    
     private var urlStringBuilder: URLStringBuilder
     public let method: HTTPMethod
-    
+    public typealias Element = URLRequest
 
     public class func `public`(method: HTTPMethod, urlString: URLStringConvertible) -> APIRequest {
         return APIRequest(method: method, urlString: urlString).setContentType(.json).setNeedsUserAgent()
