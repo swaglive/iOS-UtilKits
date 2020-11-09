@@ -12,8 +12,8 @@ public protocol URLStringConvertible {
     func createBuilder() -> URLStringBuilder
 }
 
-public class ObjectBuilder<T> {
-    open func build() -> T { return T.self as! T}
+public class URLRequestBuilder {
+    @objc dynamic open func build() -> URLRequest? { return nil }
 }
 
 extension String : URLStringConvertible {
@@ -28,7 +28,7 @@ extension URLStringBuilder : URLStringConvertible {
     }
 }
 
-public class APIRequest: ObjectBuilder<URLRequest> {
+public class APIRequest: URLRequestBuilder {
     
     private var urlStringBuilder: URLStringBuilder
     public let method: HTTPMethod
@@ -43,7 +43,7 @@ public class APIRequest: ObjectBuilder<URLRequest> {
     }
     
     public var request: URLRequest {
-        build()
+        build()!
     }
 
     private var authorization: String = ""
