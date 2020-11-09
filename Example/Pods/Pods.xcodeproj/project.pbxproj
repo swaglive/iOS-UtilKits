@@ -57,6 +57,30 @@
 		D0CC1F9C2558F1CB00D87F48 /* AVURLAsset+Swag.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1F9A2558F1CB00D87F48 /* AVURLAsset+Swag.h */; };
 		D0CC1F9F2558F64B00D87F48 /* FreeTouchDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1F9D2558F64B00D87F48 /* FreeTouchDetector.h */; };
 		D0CC1FA02558F64B00D87F48 /* FreeTouchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F9E2558F64B00D87F48 /* FreeTouchDetector.m */; };
+		D0CC1FA32559033900D87F48 /* NSDateFormatter+Swag.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1FA12559033900D87F48 /* NSDateFormatter+Swag.h */; };
+		D0CC1FA42559033900D87F48 /* NSDateFormatter+Swag.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FA22559033900D87F48 /* NSDateFormatter+Swag.m */; };
+		D0CC1FA72559035E00D87F48 /* NSMutableDictionary+Swag.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1FA52559035E00D87F48 /* NSMutableDictionary+Swag.h */; };
+		D0CC1FA82559035E00D87F48 /* NSMutableDictionary+Swag.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FA62559035E00D87F48 /* NSMutableDictionary+Swag.m */; };
+		D0CC1FAB2559039000D87F48 /* UIApplication+Swag.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FA92559039000D87F48 /* UIApplication+Swag.m */; };
+		D0CC1FAC2559039000D87F48 /* UIApplication+Swag.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1FAA2559039000D87F48 /* UIApplication+Swag.h */; };
+		D0CC1FAF255903EA00D87F48 /* UIFont+Swag.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FAD255903E900D87F48 /* UIFont+Swag.m */; };
+		D0CC1FB0255903EA00D87F48 /* UIFont+Swag.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1FAE255903EA00D87F48 /* UIFont+Swag.h */; };
+		D0CC1FB7255904AC00D87F48 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FB6255904AC00D87F48 /* String+Extension.swift */; };
+		D0CC1FB9255904C900D87F48 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FB8255904C900D87F48 /* CGFloat+Extension.swift */; };
+		D0CC1FBB255904E600D87F48 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FBA255904E600D87F48 /* NSDate+Extension.swift */; };
+		D0CC1FBD2559057900D87F48 /* NSNumberFormatter+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FBC2559057900D87F48 /* NSNumberFormatter+Extenstion.swift */; };
+		D0CC1FBF2559059C00D87F48 /* Decode+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FBE2559059C00D87F48 /* Decode+Extension.swift */; };
+		D0CC1FC1255905AD00D87F48 /* Decoding+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FC0255905AD00D87F48 /* Decoding+Extension.swift */; };
+		D0CC1FC3255905BF00D87F48 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FC2255905BF00D87F48 /* Date+Extension.swift */; };
+		D0CC1FC5255905F100D87F48 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FC4255905F100D87F48 /* UIBarButtonItem+Extension.swift */; };
+		D0CC1FC72559060200D87F48 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FC62559060200D87F48 /* UITableView+Extension.swift */; };
+		D0CC1FC92559062B00D87F48 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FC82559062B00D87F48 /* UITableViewCell+Extension.swift */; };
+		D0CC1FCB2559064400D87F48 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FCA2559064400D87F48 /* UITextView+Extension.swift */; };
+		D0CC1FCD2559065300D87F48 /* TimeInterval+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FCC2559065300D87F48 /* TimeInterval+Extension.swift */; };
+		D0CC1FCF2559069400D87F48 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FCE2559069400D87F48 /* UIImage+Extension.swift */; };
+		D0CC1FD1255906AB00D87F48 /* Decodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FD0255906AB00D87F48 /* Decodable+Extension.swift */; };
+		D0CC1FD3255906B700D87F48 /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FD2255906B700D87F48 /* Encodable+Extension.swift */; };
+		D0CC1FD5255906D900D87F48 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FD4255906D900D87F48 /* UIScreen+Extension.swift */; };
 		DB29A54528103C0E71AC4D12C92AF360 /* Pods-iOS-UtilKits_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -116,6 +140,30 @@
 		D0CC1F9A2558F1CB00D87F48 /* AVURLAsset+Swag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AVURLAsset+Swag.h"; path = "iOS-UtilKits/Classes/AVURLAsset+Swag.h"; sourceTree = "<group>"; };
 		D0CC1F9D2558F64B00D87F48 /* FreeTouchDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FreeTouchDetector.h; path = "iOS-UtilKits/Classes/FreeTouchDetector.h"; sourceTree = "<group>"; };
 		D0CC1F9E2558F64B00D87F48 /* FreeTouchDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FreeTouchDetector.m; path = "iOS-UtilKits/Classes/FreeTouchDetector.m"; sourceTree = "<group>"; };
+		D0CC1FA12559033900D87F48 /* NSDateFormatter+Swag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+Swag.h"; path = "iOS-UtilKits/Classes/NSDateFormatter+Swag.h"; sourceTree = "<group>"; };
+		D0CC1FA22559033900D87F48 /* NSDateFormatter+Swag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+Swag.m"; path = "iOS-UtilKits/Classes/NSDateFormatter+Swag.m"; sourceTree = "<group>"; };
+		D0CC1FA52559035E00D87F48 /* NSMutableDictionary+Swag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+Swag.h"; path = "iOS-UtilKits/Classes/NSMutableDictionary+Swag.h"; sourceTree = "<group>"; };
+		D0CC1FA62559035E00D87F48 /* NSMutableDictionary+Swag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+Swag.m"; path = "iOS-UtilKits/Classes/NSMutableDictionary+Swag.m"; sourceTree = "<group>"; };
+		D0CC1FA92559039000D87F48 /* UIApplication+Swag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+Swag.m"; path = "iOS-UtilKits/Classes/UIApplication+Swag.m"; sourceTree = "<group>"; };
+		D0CC1FAA2559039000D87F48 /* UIApplication+Swag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+Swag.h"; path = "iOS-UtilKits/Classes/UIApplication+Swag.h"; sourceTree = "<group>"; };
+		D0CC1FAD255903E900D87F48 /* UIFont+Swag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+Swag.m"; path = "iOS-UtilKits/Classes/UIFont+Swag.m"; sourceTree = "<group>"; };
+		D0CC1FAE255903EA00D87F48 /* UIFont+Swag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+Swag.h"; path = "iOS-UtilKits/Classes/UIFont+Swag.h"; sourceTree = "<group>"; };
+		D0CC1FB6255904AC00D87F48 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "iOS-UtilKits/Classes/String+Extension.swift"; sourceTree = "<group>"; };
+		D0CC1FB8255904C900D87F48 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGFloat+Extension.swift"; path = "iOS-UtilKits/Classes/CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		D0CC1FBA255904E600D87F48 /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDate+Extension.swift"; path = "iOS-UtilKits/Classes/NSDate+Extension.swift"; sourceTree = "<group>"; };
+		D0CC1FBC2559057900D87F48 /* NSNumberFormatter+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSNumberFormatter+Extenstion.swift"; path = "iOS-UtilKits/Classes/NSNumberFormatter+Extenstion.swift"; sourceTree = "<group>"; };
+		D0CC1FBE2559059C00D87F48 /* Decode+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Decode+Extension.swift"; path = "iOS-UtilKits/Classes/Decode+Extension.swift"; sourceTree = "<group>"; };
+		D0CC1FC0255905AD00D87F48 /* Decoding+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Decoding+Extension.swift"; path = "iOS-UtilKits/Classes/Decoding+Extension.swift"; sourceTree = "<group>"; };
+		D0CC1FC2255905BF00D87F48 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Extension.swift"; path = "iOS-UtilKits/Classes/Date+Extension.swift"; sourceTree = "<group>"; };
+		D0CC1FC4255905F100D87F48 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIBarButtonItem+Extension.swift"; path = "iOS-UtilKits/Classes/UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		D0CC1FC62559060200D87F48 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITableView+Extension.swift"; path = "iOS-UtilKits/Classes/UITableView+Extension.swift"; sourceTree = "<group>"; };
+		D0CC1FC82559062B00D87F48 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+Extension.swift"; path = "iOS-UtilKits/Classes/UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		D0CC1FCA2559064400D87F48 /* UITextView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextView+Extension.swift"; path = "iOS-UtilKits/Classes/UITextView+Extension.swift"; sourceTree = "<group>"; };
+		D0CC1FCC2559065300D87F48 /* TimeInterval+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Extension.swift"; path = "iOS-UtilKits/Classes/TimeInterval+Extension.swift"; sourceTree = "<group>"; };
+		D0CC1FCE2559069400D87F48 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Extension.swift"; path = "iOS-UtilKits/Classes/UIImage+Extension.swift"; sourceTree = "<group>"; };
+		D0CC1FD0255906AB00D87F48 /* Decodable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Decodable+Extension.swift"; path = "iOS-UtilKits/Classes/Decodable+Extension.swift"; sourceTree = "<group>"; };
+		D0CC1FD2255906B700D87F48 /* Encodable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Encodable+Extension.swift"; path = "iOS-UtilKits/Classes/Encodable+Extension.swift"; sourceTree = "<group>"; };
+		D0CC1FD4255906D900D87F48 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIScreen+Extension.swift"; path = "iOS-UtilKits/Classes/UIScreen+Extension.swift"; sourceTree = "<group>"; };
 		D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-UtilKits_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D516BD1A903C633EB5F8A8E73679B107 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D8DD5ED49D89349FDCFF34EF484C82E8 /* Pods_iOS_UtilKits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_UtilKits_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +209,7 @@
 		5F206C7822BC9702534BA41BAD5D82B7 /* iOS-UtilKits */ = {
 			isa = PBXGroup;
 			children = (
+				D0CC1FB52559048000D87F48 /* Extensions */,
 				D0CC1F982558F18F00D87F48 /* ObjC+Extension */,
 				D0CC1F7F2558ECB700D87F48 /* Formatter */,
 				D09004B825516A5300A55A02 /* DisposeBag.swift */,
@@ -254,8 +303,39 @@
 			children = (
 				D0CC1F9A2558F1CB00D87F48 /* AVURLAsset+Swag.h */,
 				D0CC1F992558F1CB00D87F48 /* AVURLAsset+Swag.m */,
+				D0CC1FA12559033900D87F48 /* NSDateFormatter+Swag.h */,
+				D0CC1FA22559033900D87F48 /* NSDateFormatter+Swag.m */,
+				D0CC1FA52559035E00D87F48 /* NSMutableDictionary+Swag.h */,
+				D0CC1FA62559035E00D87F48 /* NSMutableDictionary+Swag.m */,
+				D0CC1FAA2559039000D87F48 /* UIApplication+Swag.h */,
+				D0CC1FA92559039000D87F48 /* UIApplication+Swag.m */,
+				D0CC1FAE255903EA00D87F48 /* UIFont+Swag.h */,
+				D0CC1FAD255903E900D87F48 /* UIFont+Swag.m */,
 			);
 			name = "ObjC+Extension";
+			sourceTree = "<group>";
+		};
+		D0CC1FB52559048000D87F48 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0CC1FB6255904AC00D87F48 /* String+Extension.swift */,
+				D0CC1FB8255904C900D87F48 /* CGFloat+Extension.swift */,
+				D0CC1FBA255904E600D87F48 /* NSDate+Extension.swift */,
+				D0CC1FBC2559057900D87F48 /* NSNumberFormatter+Extenstion.swift */,
+				D0CC1FBE2559059C00D87F48 /* Decode+Extension.swift */,
+				D0CC1FC0255905AD00D87F48 /* Decoding+Extension.swift */,
+				D0CC1FC2255905BF00D87F48 /* Date+Extension.swift */,
+				D0CC1FC4255905F100D87F48 /* UIBarButtonItem+Extension.swift */,
+				D0CC1FC62559060200D87F48 /* UITableView+Extension.swift */,
+				D0CC1FC82559062B00D87F48 /* UITableViewCell+Extension.swift */,
+				D0CC1FCA2559064400D87F48 /* UITextView+Extension.swift */,
+				D0CC1FCC2559065300D87F48 /* TimeInterval+Extension.swift */,
+				D0CC1FCE2559069400D87F48 /* UIImage+Extension.swift */,
+				D0CC1FD0255906AB00D87F48 /* Decodable+Extension.swift */,
+				D0CC1FD2255906B700D87F48 /* Encodable+Extension.swift */,
+				D0CC1FD4255906D900D87F48 /* UIScreen+Extension.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -308,9 +388,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0CC1F842558ED3800D87F48 /* SWAppNumberFormatters.h in Headers */,
+				D0CC1FAC2559039000D87F48 /* UIApplication+Swag.h in Headers */,
 				D0CC1F9C2558F1CB00D87F48 /* AVURLAsset+Swag.h in Headers */,
+				D0CC1FA32559033900D87F48 /* NSDateFormatter+Swag.h in Headers */,
 				D0CC1F9F2558F64B00D87F48 /* FreeTouchDetector.h in Headers */,
+				D0CC1FA72559035E00D87F48 /* NSMutableDictionary+Swag.h in Headers */,
 				686D6CFC4305624906C3FA45E8CF9BE9 /* iOS-UtilKits-umbrella.h in Headers */,
+				D0CC1FB0255903EA00D87F48 /* UIFont+Swag.h in Headers */,
 				D0CC1F8D2558EF5400D87F48 /* SWMulticastCallbackManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,32 +519,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CC1FA42559033900D87F48 /* NSDateFormatter+Swag.m in Sources */,
 				D0CC1F892558EF1900D87F48 /* SWDateFormatter.swift in Sources */,
+				D0CC1FBF2559059C00D87F48 /* Decode+Extension.swift in Sources */,
 				D09004A82551561C00A55A02 /* LimitObjectSetCache.swift in Sources */,
 				5C57F3BBBA7F399A5D4F7F3807030795 /* iOS-UtilKits-dummy.m in Sources */,
 				D09004A5255155F100A55A02 /* SynchronizedArray.swift in Sources */,
 				D09004AE255156C600A55A02 /* DebugFunctions.swift in Sources */,
+				D0CC1FBB255904E600D87F48 /* NSDate+Extension.swift in Sources */,
 				D0CC1FA02558F64B00D87F48 /* FreeTouchDetector.m in Sources */,
+				D0CC1FB7255904AC00D87F48 /* String+Extension.swift in Sources */,
 				D09004A2255155C400A55A02 /* DictionaryRepository.swift in Sources */,
+				D0CC1FD1255906AB00D87F48 /* Decodable+Extension.swift in Sources */,
+				D0CC1FC92559062B00D87F48 /* UITableViewCell+Extension.swift in Sources */,
 				D0CC1F852558ED3800D87F48 /* SWAppNumberFormatters.m in Sources */,
 				D0CC1F7E2558EC3C00D87F48 /* SWShareTool.swift in Sources */,
+				D0CC1FAF255903EA00D87F48 /* UIFont+Swag.m in Sources */,
 				D090048E255134F700A55A02 /* Throttler.swift in Sources */,
+				D0CC1FCF2559069400D87F48 /* UIImage+Extension.swift in Sources */,
 				D0900490255134F700A55A02 /* Network.swift in Sources */,
 				D0CC1F872558EF0400D87F48 /* IntegerShorteningFormatter.swift in Sources */,
 				D0900487255134D800A55A02 /* Debouncer.swift in Sources */,
+				D0CC1FC3255905BF00D87F48 /* Date+Extension.swift in Sources */,
 				D09004B6255169CF00A55A02 /* ImageSet.swift in Sources */,
+				D0CC1FD3255906B700D87F48 /* Encodable+Extension.swift in Sources */,
+				D0CC1FA82559035E00D87F48 /* NSMutableDictionary+Swag.m in Sources */,
 				D09004AB2551565B00A55A02 /* MulticastCallbackManager.swift in Sources */,
+				D0CC1FAB2559039000D87F48 /* UIApplication+Swag.m in Sources */,
 				D090049625513BF800A55A02 /* AsyncHandlerQueue.swift in Sources */,
+				D0CC1FCB2559064400D87F48 /* UITextView+Extension.swift in Sources */,
 				D090049325513B4B00A55A02 /* AttributedStringBuilder.swift in Sources */,
+				D0CC1FC1255905AD00D87F48 /* Decoding+Extension.swift in Sources */,
+				D0CC1FBD2559057900D87F48 /* NSNumberFormatter+Extenstion.swift in Sources */,
 				D090048C255134F700A55A02 /* DisplayLinkTimer.swift in Sources */,
 				D09004B32551698100A55A02 /* MD5Processor.swift in Sources */,
 				D0CC1F8C2558EF5400D87F48 /* SWMulticastCallbackManager.m in Sources */,
 				D0CC1F932558F01600D87F48 /* DataFileAccess.swift in Sources */,
+				D0CC1FB9255904C900D87F48 /* CGFloat+Extension.swift in Sources */,
+				D0CC1FC5255905F100D87F48 /* UIBarButtonItem+Extension.swift in Sources */,
 				D0CC1F9B2558F1CB00D87F48 /* AVURLAsset+Swag.m in Sources */,
 				D0CC1F812558ECCA00D87F48 /* TaiwanTimezoneDateFormatter.swift in Sources */,
 				D090049F2551554A00A55A02 /* SimpleCoalescingTimer.swift in Sources */,
 				D090049C2551552A00A55A02 /* DeviceCharacteristic.swift in Sources */,
 				D09004B925516A5400A55A02 /* DisposeBag.swift in Sources */,
+				D0CC1FD5255906D900D87F48 /* UIScreen+Extension.swift in Sources */,
+				D0CC1FC72559060200D87F48 /* UITableView+Extension.swift in Sources */,
+				D0CC1FCD2559065300D87F48 /* TimeInterval+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
