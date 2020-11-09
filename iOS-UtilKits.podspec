@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'iOS-UtilKits/Classes/**/*'
-  
+  s.pod_target_xcconfig = {'SWIFT_COMPILATION_MODE'=>'wholemodule'}
   # s.resource_bundles = {
   #   'iOS-UtilKits' => ['iOS-UtilKits/Assets/*.png']
   # }

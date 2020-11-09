@@ -12,7 +12,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		40A4E098E3CA71DB55BE0A28 /* iOS-UtilKits.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "iOS-UtilKits.podspec"; path = "../iOS-UtilKits.podspec"; sourceTree = "<group>"; };
+		40A4E098E3CA71DB55BE0A28 /* iOS-UtilKits.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "iOS-UtilKits.podspec"; path = "../iOS-UtilKits.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		49403211FDD7D6C78EA8FED6 /* Pods-iOS-UtilKits_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-UtilKits_Tests.release.xcconfig"; path = "Target Support Files/Pods-iOS-UtilKits_Tests/Pods-iOS-UtilKits_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4EEAC85BA1A74E6B4D89842B /* Pods_iOS_UtilKits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_UtilKits_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACE51AFB9204008FA782 /* iOS-UtilKits_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-UtilKits_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };

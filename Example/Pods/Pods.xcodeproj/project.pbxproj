@@ -87,6 +87,22 @@
 		D0CC1FE62559198300D87F48 /* APIRequestComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FE42559198300D87F48 /* APIRequestComponent.swift */; };
 		D0CC1FE8255919A500D87F48 /* URLStringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FE7255919A500D87F48 /* URLStringBuilder.swift */; };
 		D0CC1FE9255919A500D87F48 /* URLStringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FE7255919A500D87F48 /* URLStringBuilder.swift */; };
+		D0CC1FEB25593F9400D87F48 /* HeaderLinkInfoExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FEA25593F9400D87F48 /* HeaderLinkInfoExtractor.swift */; };
+		D0CC1FEC25593F9400D87F48 /* HeaderLinkInfoExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FEA25593F9400D87F48 /* HeaderLinkInfoExtractor.swift */; };
+		D0CC1FEE2559416400D87F48 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FED2559416400D87F48 /* URL+Extension.swift */; };
+		D0CC1FEF2559416400D87F48 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FED2559416400D87F48 /* URL+Extension.swift */; };
+		D0CC1FF12559433000D87F48 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FF02559433000D87F48 /* SessionManager.swift */; };
+		D0CC1FF22559433000D87F48 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FF02559433000D87F48 /* SessionManager.swift */; };
+		D0CC1FF72559463000D87F48 /* RKSimpleAsynchronousOperationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FF42559462F00D87F48 /* RKSimpleAsynchronousOperationSpec.swift */; };
+		D0CC1FF82559463000D87F48 /* RKSimpleAsynchronousOperationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FF42559462F00D87F48 /* RKSimpleAsynchronousOperationSpec.swift */; };
+		D0CC1FF92559463000D87F48 /* RKSimpleAsynchronousOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1FF52559463000D87F48 /* RKSimpleAsynchronousOperation.h */; };
+		D0CC1FFA2559463000D87F48 /* RKSimpleAsynchronousOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1FF52559463000D87F48 /* RKSimpleAsynchronousOperation.h */; };
+		D0CC1FFB2559463000D87F48 /* RKSimpleAsynchronousOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FF62559463000D87F48 /* RKSimpleAsynchronousOperation.m */; };
+		D0CC1FFC2559463000D87F48 /* RKSimpleAsynchronousOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FF62559463000D87F48 /* RKSimpleAsynchronousOperation.m */; };
+		D0CC20032559480B00D87F48 /* RKKeyboardPresenceObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC20012559480B00D87F48 /* RKKeyboardPresenceObserver.m */; };
+		D0CC20042559480B00D87F48 /* RKKeyboardPresenceObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC20012559480B00D87F48 /* RKKeyboardPresenceObserver.m */; };
+		D0CC20052559480B00D87F48 /* RKKeyboardPresenceObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC20022559480B00D87F48 /* RKKeyboardPresenceObserver.h */; };
+		D0CC20062559480B00D87F48 /* RKKeyboardPresenceObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC20022559480B00D87F48 /* RKKeyboardPresenceObserver.h */; };
 		DB29A54528103C0E71AC4D12C92AF360 /* Pods-iOS-UtilKits_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -113,7 +129,7 @@
 		96AB70DD79227BC0984CB8FCAC47CA65 /* Pods-iOS-UtilKits_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-UtilKits_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DBB43F897399A4182511C3577933EE6 /* iOS-UtilKits.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "iOS-UtilKits.modulemap"; sourceTree = "<group>"; };
-		AB5002C29D5D044B4E3AA026B55A1199 /* iOS-UtilKits.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "iOS-UtilKits.podspec"; sourceTree = "<group>"; tabWidth = 2; };
+		AB5002C29D5D044B4E3AA026B55A1199 /* iOS-UtilKits.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "iOS-UtilKits.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B311A9F1C27DE1C37F38F1E7737104E1 /* Pods-iOS-UtilKits_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-UtilKits_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B8D65E479871DA72D6C69CDF2B11EE31 /* Pods-iOS-UtilKits_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-UtilKits_Tests-dummy.m"; sourceTree = "<group>"; };
 		CDE2F49ECC9513D9D2DAFC7E42223E09 /* Pods-iOS-UtilKits_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-UtilKits_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -173,6 +189,14 @@
 		D0CC1FE12559195900D87F48 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIRequest.swift; path = "iOS-UtilKits/Classes/APIRequest.swift"; sourceTree = "<group>"; };
 		D0CC1FE42559198300D87F48 /* APIRequestComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIRequestComponent.swift; path = "iOS-UtilKits/Classes/APIRequestComponent.swift"; sourceTree = "<group>"; };
 		D0CC1FE7255919A500D87F48 /* URLStringBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = URLStringBuilder.swift; path = "iOS-UtilKits/Classes/URLStringBuilder.swift"; sourceTree = "<group>"; };
+		D0CC1FEA25593F9400D87F48 /* HeaderLinkInfoExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeaderLinkInfoExtractor.swift; path = "iOS-UtilKits/Classes/HeaderLinkInfoExtractor.swift"; sourceTree = "<group>"; };
+		D0CC1FED2559416400D87F48 /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "URL+Extension.swift"; path = "iOS-UtilKits/Classes/URL+Extension.swift"; sourceTree = "<group>"; };
+		D0CC1FF02559433000D87F48 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = "iOS-UtilKits/Classes/SessionManager.swift"; sourceTree = "<group>"; };
+		D0CC1FF42559462F00D87F48 /* RKSimpleAsynchronousOperationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RKSimpleAsynchronousOperationSpec.swift; path = "iOS-UtilKits/Classes/RKSimpleAsynchronousOperationSpec.swift"; sourceTree = "<group>"; };
+		D0CC1FF52559463000D87F48 /* RKSimpleAsynchronousOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKSimpleAsynchronousOperation.h; path = "iOS-UtilKits/Classes/RKSimpleAsynchronousOperation.h"; sourceTree = "<group>"; };
+		D0CC1FF62559463000D87F48 /* RKSimpleAsynchronousOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKSimpleAsynchronousOperation.m; path = "iOS-UtilKits/Classes/RKSimpleAsynchronousOperation.m"; sourceTree = "<group>"; };
+		D0CC20012559480B00D87F48 /* RKKeyboardPresenceObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKKeyboardPresenceObserver.m; path = "iOS-UtilKits/Classes/RKKeyboardPresenceObserver.m"; sourceTree = "<group>"; };
+		D0CC20022559480B00D87F48 /* RKKeyboardPresenceObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKKeyboardPresenceObserver.h; path = "iOS-UtilKits/Classes/RKKeyboardPresenceObserver.h"; sourceTree = "<group>"; };
 		D1635FCDEDDB4DB92990BABFBDEA80EB /* Pods-iOS-UtilKits_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-UtilKits_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D516BD1A903C633EB5F8A8E73679B107 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D8DD5ED49D89349FDCFF34EF484C82E8 /* Pods_iOS_UtilKits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_UtilKits_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -218,6 +242,8 @@
 		5F206C7822BC9702534BA41BAD5D82B7 /* iOS-UtilKits */ = {
 			isa = PBXGroup;
 			children = (
+				D0CC1FFD255946E500D87F48 /* RKKeyboardPresenceObserver */,
+				D0CC1FF32559460C00D87F48 /* RKSimpleAsynchronousOperation */,
 				D0CC1FE02559193B00D87F48 /* Networking */,
 				D0CC1FB52559048000D87F48 /* Extensions */,
 				D0CC1F982558F18F00D87F48 /* ObjC+Extension */,
@@ -354,8 +380,30 @@
 				D0CC1FE12559195900D87F48 /* APIRequest.swift */,
 				D0CC1FE42559198300D87F48 /* APIRequestComponent.swift */,
 				D0CC1FE7255919A500D87F48 /* URLStringBuilder.swift */,
+				D0CC1FEA25593F9400D87F48 /* HeaderLinkInfoExtractor.swift */,
+				D0CC1FED2559416400D87F48 /* URL+Extension.swift */,
+				D0CC1FF02559433000D87F48 /* SessionManager.swift */,
 			);
 			name = Networking;
+			sourceTree = "<group>";
+		};
+		D0CC1FF32559460C00D87F48 /* RKSimpleAsynchronousOperation */ = {
+			isa = PBXGroup;
+			children = (
+				D0CC1FF52559463000D87F48 /* RKSimpleAsynchronousOperation.h */,
+				D0CC1FF62559463000D87F48 /* RKSimpleAsynchronousOperation.m */,
+				D0CC1FF42559462F00D87F48 /* RKSimpleAsynchronousOperationSpec.swift */,
+			);
+			name = RKSimpleAsynchronousOperation;
+			sourceTree = "<group>";
+		};
+		D0CC1FFD255946E500D87F48 /* RKKeyboardPresenceObserver */ = {
+			isa = PBXGroup;
+			children = (
+				D0CC20022559480B00D87F48 /* RKKeyboardPresenceObserver.h */,
+				D0CC20012559480B00D87F48 /* RKKeyboardPresenceObserver.m */,
+			);
+			name = RKKeyboardPresenceObserver;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -400,6 +448,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB29A54528103C0E71AC4D12C92AF360 /* Pods-iOS-UtilKits_Tests-umbrella.h in Headers */,
+				D0CC1FFA2559463000D87F48 /* RKSimpleAsynchronousOperation.h in Headers */,
+				D0CC20062559480B00D87F48 /* RKKeyboardPresenceObserver.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,12 +458,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0CC1F842558ED3800D87F48 /* SWAppNumberFormatters.h in Headers */,
+				686D6CFC4305624906C3FA45E8CF9BE9 /* iOS-UtilKits-umbrella.h in Headers */,
+				D0CC20052559480B00D87F48 /* RKKeyboardPresenceObserver.h in Headers */,
 				D0CC1FAC2559039000D87F48 /* UIApplication+Swag.h in Headers */,
 				D0CC1F9C2558F1CB00D87F48 /* AVURLAsset+Swag.h in Headers */,
 				D0CC1FA32559033900D87F48 /* NSDateFormatter+Swag.h in Headers */,
 				D0CC1F9F2558F64B00D87F48 /* FreeTouchDetector.h in Headers */,
+				D0CC1FF92559463000D87F48 /* RKSimpleAsynchronousOperation.h in Headers */,
 				D0CC1FA72559035E00D87F48 /* NSMutableDictionary+Swag.h in Headers */,
-				686D6CFC4305624906C3FA45E8CF9BE9 /* iOS-UtilKits-umbrella.h in Headers */,
 				D0CC1FB0255903EA00D87F48 /* UIFont+Swag.h in Headers */,
 				D0CC1F8D2558EF5400D87F48 /* SWMulticastCallbackManager.h in Headers */,
 			);
@@ -515,8 +567,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CC1FEC25593F9400D87F48 /* HeaderLinkInfoExtractor.swift in Sources */,
+				D0CC1FF22559433000D87F48 /* SessionManager.swift in Sources */,
 				D09004A92551561C00A55A02 /* LimitObjectSetCache.swift in Sources */,
 				D0900491255134F700A55A02 /* Network.swift in Sources */,
+				D0CC1FEF2559416400D87F48 /* URL+Extension.swift in Sources */,
 				D0CC1FE9255919A500D87F48 /* URLStringBuilder.swift in Sources */,
 				D09004A6255155F100A55A02 /* SynchronizedArray.swift in Sources */,
 				D09004AF255156C600A55A02 /* DebugFunctions.swift in Sources */,
@@ -524,13 +579,16 @@
 				D09004A3255155C400A55A02 /* DictionaryRepository.swift in Sources */,
 				72BD16F09C7594EAA30832FABC925DC6 /* Pods-iOS-UtilKits_Tests-dummy.m in Sources */,
 				D0900488255134D800A55A02 /* Debouncer.swift in Sources */,
+				D0CC20042559480B00D87F48 /* RKKeyboardPresenceObserver.m in Sources */,
 				D090048F255134F700A55A02 /* Throttler.swift in Sources */,
 				D09004B7255169CF00A55A02 /* ImageSet.swift in Sources */,
 				D09004AC2551565B00A55A02 /* MulticastCallbackManager.swift in Sources */,
 				D090049725513BF800A55A02 /* AsyncHandlerQueue.swift in Sources */,
 				D090049425513B4B00A55A02 /* AttributedStringBuilder.swift in Sources */,
+				D0CC1FF82559463000D87F48 /* RKSimpleAsynchronousOperationSpec.swift in Sources */,
 				D090048D255134F700A55A02 /* DisplayLinkTimer.swift in Sources */,
 				D09004B42551698100A55A02 /* MD5Processor.swift in Sources */,
+				D0CC1FFC2559463000D87F48 /* RKSimpleAsynchronousOperation.m in Sources */,
 				D09004A02551554A00A55A02 /* SimpleCoalescingTimer.swift in Sources */,
 				D090049D2551552A00A55A02 /* DeviceCharacteristic.swift in Sources */,
 				D0CC1FE32559195900D87F48 /* APIRequest.swift in Sources */,
@@ -557,6 +615,7 @@
 				D0CC1FD1255906AB00D87F48 /* Decodable+Extension.swift in Sources */,
 				D0CC1FC92559062B00D87F48 /* UITableViewCell+Extension.swift in Sources */,
 				D0CC1F852558ED3800D87F48 /* SWAppNumberFormatters.m in Sources */,
+				D0CC1FEB25593F9400D87F48 /* HeaderLinkInfoExtractor.swift in Sources */,
 				D0CC1F7E2558EC3C00D87F48 /* SWShareTool.swift in Sources */,
 				D0CC1FAF255903EA00D87F48 /* UIFont+Swag.m in Sources */,
 				D090048E255134F700A55A02 /* Throttler.swift in Sources */,
@@ -575,16 +634,21 @@
 				D0CC1FCB2559064400D87F48 /* UITextView+Extension.swift in Sources */,
 				D090049325513B4B00A55A02 /* AttributedStringBuilder.swift in Sources */,
 				D0CC1FC1255905AD00D87F48 /* Decoding+Extension.swift in Sources */,
+				D0CC20032559480B00D87F48 /* RKKeyboardPresenceObserver.m in Sources */,
 				D0CC1FBD2559057900D87F48 /* NSNumberFormatter+Extenstion.swift in Sources */,
 				D090048C255134F700A55A02 /* DisplayLinkTimer.swift in Sources */,
 				D09004B32551698100A55A02 /* MD5Processor.swift in Sources */,
 				D0CC1F8C2558EF5400D87F48 /* SWMulticastCallbackManager.m in Sources */,
+				D0CC1FF12559433000D87F48 /* SessionManager.swift in Sources */,
 				D0CC1F932558F01600D87F48 /* DataFileAccess.swift in Sources */,
 				D0CC1FB9255904C900D87F48 /* CGFloat+Extension.swift in Sources */,
 				D0CC1FC5255905F100D87F48 /* UIBarButtonItem+Extension.swift in Sources */,
 				D0CC1F9B2558F1CB00D87F48 /* AVURLAsset+Swag.m in Sources */,
 				D0CC1F812558ECCA00D87F48 /* TaiwanTimezoneDateFormatter.swift in Sources */,
+				D0CC1FFB2559463000D87F48 /* RKSimpleAsynchronousOperation.m in Sources */,
 				D090049F2551554A00A55A02 /* SimpleCoalescingTimer.swift in Sources */,
+				D0CC1FF72559463000D87F48 /* RKSimpleAsynchronousOperationSpec.swift in Sources */,
+				D0CC1FEE2559416400D87F48 /* URL+Extension.swift in Sources */,
 				D090049C2551552A00A55A02 /* DeviceCharacteristic.swift in Sources */,
 				D09004B925516A5400A55A02 /* DisposeBag.swift in Sources */,
 				D0CC1FD5255906D900D87F48 /* UIScreen+Extension.swift in Sources */,
@@ -667,6 +731,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -859,6 +924,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
