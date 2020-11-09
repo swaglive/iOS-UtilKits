@@ -8,10 +8,11 @@
 
 import Foundation
 
-class DataFileAccess {
+@objcMembers
+public class DataFileAccess {
     private static let queue = DispatchQueue(label: "com.swag.datafile.access", attributes: .concurrent)
     
-    class func write(_ data: Data, toURL dataFileWithPathURL: URL) {
+    public class func write(_ data: Data, toURL dataFileWithPathURL: URL) {
         queue.async(flags: .barrier) {
             do {
                 try data.write(to: dataFileWithPathURL, options: .atomic)
@@ -20,7 +21,7 @@ class DataFileAccess {
             }
         }
     }
-    class func read(from dataFileWithPathURL: URL) -> Data? {
+    public class func read(from dataFileWithPathURL: URL) -> Data? {
         guard FileManager.default.fileExists(atPath: dataFileWithPathURL.path) else {
             return nil
         }
