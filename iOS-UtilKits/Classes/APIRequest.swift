@@ -79,7 +79,7 @@ public class APIRequest: BuilderProtocol {
         return self
     }
     
-    private var needsUserAgent = false
+    public private(set) var needsUserAgent = false
     @discardableResult public func setNeedsUserAgent(_ needsUserAgent: Bool = true) -> APIRequest {
         self.needsUserAgent = needsUserAgent
         return self
