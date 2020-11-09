@@ -13,7 +13,7 @@ public protocol URLStringConvertible {
 }
 
 public class ObjectBuilder<T> {
-    public func build() -> T { return T.self as! T}
+    open func build() -> T { return T.self as! T}
 }
 
 extension String : URLStringConvertible {
