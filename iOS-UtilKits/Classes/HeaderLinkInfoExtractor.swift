@@ -11,6 +11,10 @@ import Foundation
 public struct LinkElement {
     public let type: String
     public let value: URL
+    public init(type: String, value: URL) {
+        self.type = type
+        self.value = value
+    }
 }
 
 @objcMembers
@@ -44,7 +48,7 @@ public class HeaderLinkInfoExtractor: NSObject {
 
         for item in items {
             let substring = item.replacingOccurrences(of: "<", with: "")
-            if let idx = substring.index(of: ">") {
+            if let idx = substring.firstIndex(of: ">") {
                 let range = substring.startIndex..<idx
                 
                 let urlString = String(substring[range]).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
