@@ -9,19 +9,19 @@
 import Foundation
 
 @objcMembers
-class Throttler: NSObject {
+public class Throttler: NSObject {
 
     private var workItem: DispatchWorkItem = DispatchWorkItem(block: {})
     private var previousRun: Date = Date.distantPast
     private let queue: DispatchQueue
     private let minimumDelay: TimeInterval
 
-    init(minimumDelay: TimeInterval, queue: DispatchQueue = DispatchQueue.main) {
+    public init(minimumDelay: TimeInterval, queue: DispatchQueue = DispatchQueue.main) {
         self.minimumDelay = minimumDelay
         self.queue = queue
     }
 
-    func throttle(_ block: @escaping () -> Void) {
+    public func throttle(_ block: @escaping () -> Void) {
         workItem.cancel()
         workItem = DispatchWorkItem() {
             [weak self] in
