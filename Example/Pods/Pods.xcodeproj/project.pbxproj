@@ -44,6 +44,14 @@
 		D09004B7255169CF00A55A02 /* ImageSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004B5255169CF00A55A02 /* ImageSet.swift */; };
 		D09004B925516A5400A55A02 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004B825516A5300A55A02 /* DisposeBag.swift */; };
 		D09004BA25516A5400A55A02 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09004B825516A5300A55A02 /* DisposeBag.swift */; };
+		D0A53228255A352000E5C4D8 /* URLComponents+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A53227255A352000E5C4D8 /* URLComponents+Extension.swift */; };
+		D0A53229255A352000E5C4D8 /* URLComponents+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A53227255A352000E5C4D8 /* URLComponents+Extension.swift */; };
+		D0A5322B255A355600E5C4D8 /* TimeInterval+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5322A255A355600E5C4D8 /* TimeInterval+Extension.swift */; };
+		D0A5322C255A355600E5C4D8 /* TimeInterval+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5322A255A355600E5C4D8 /* TimeInterval+Extension.swift */; };
+		D0A53237255A469B00E5C4D8 /* PagingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A53236255A469A00E5C4D8 /* PagingList.swift */; };
+		D0A53238255A469B00E5C4D8 /* PagingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A53236255A469A00E5C4D8 /* PagingList.swift */; };
+		D0A5323A255A475E00E5C4D8 /* LinkHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A53239255A475E00E5C4D8 /* LinkHeader.swift */; };
+		D0A5323B255A475E00E5C4D8 /* LinkHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A53239255A475E00E5C4D8 /* LinkHeader.swift */; };
 		D0CC1F7E2558EC3C00D87F48 /* SWShareTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F7D2558EC3C00D87F48 /* SWShareTool.swift */; };
 		D0CC1F812558ECCA00D87F48 /* TaiwanTimezoneDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F802558ECC900D87F48 /* TaiwanTimezoneDateFormatter.swift */; };
 		D0CC1F842558ED3800D87F48 /* SWAppNumberFormatters.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1F822558ED3800D87F48 /* SWAppNumberFormatters.h */; };
@@ -139,6 +147,10 @@
 		D09004B22551698100A55A02 /* MD5Processor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MD5Processor.swift; path = "iOS-UtilKits/Classes/MD5Processor.swift"; sourceTree = "<group>"; };
 		D09004B5255169CF00A55A02 /* ImageSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageSet.swift; path = "iOS-UtilKits/Classes/ImageSet.swift"; sourceTree = "<group>"; };
 		D09004B825516A5300A55A02 /* DisposeBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisposeBag.swift; path = "iOS-UtilKits/Classes/DisposeBag.swift"; sourceTree = "<group>"; };
+		D0A53227255A352000E5C4D8 /* URLComponents+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "URLComponents+Extension.swift"; path = "iOS-UtilKits/Classes/URLComponents+Extension.swift"; sourceTree = "<group>"; };
+		D0A5322A255A355600E5C4D8 /* TimeInterval+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Extension.swift"; path = "iOS-UtilKits/Classes/TimeInterval+Extension.swift"; sourceTree = "<group>"; };
+		D0A53236255A469A00E5C4D8 /* PagingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagingList.swift; path = "iOS-UtilKits/Classes/PagingList.swift"; sourceTree = "<group>"; };
+		D0A53239255A475E00E5C4D8 /* LinkHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinkHeader.swift; path = "iOS-UtilKits/Classes/LinkHeader.swift"; sourceTree = "<group>"; };
 		D0CC1F7D2558EC3C00D87F48 /* SWShareTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWShareTool.swift; path = "iOS-UtilKits/Classes/SWShareTool.swift"; sourceTree = "<group>"; };
 		D0CC1F802558ECC900D87F48 /* TaiwanTimezoneDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaiwanTimezoneDateFormatter.swift; path = "iOS-UtilKits/Classes/TaiwanTimezoneDateFormatter.swift"; sourceTree = "<group>"; };
 		D0CC1F822558ED3800D87F48 /* SWAppNumberFormatters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWAppNumberFormatters.h; path = "iOS-UtilKits/Classes/SWAppNumberFormatters.h"; sourceTree = "<group>"; };
@@ -253,6 +265,7 @@
 				D0CC1F922558F01600D87F48 /* DataFileAccess.swift */,
 				D0CC1F9D2558F64B00D87F48 /* FreeTouchDetector.h */,
 				D0CC1F9E2558F64B00D87F48 /* FreeTouchDetector.m */,
+				D0A53236255A469A00E5C4D8 /* PagingList.swift */,
 				82A97E9187CC554EA544F93EB782F8B7 /* Pod */,
 				30750F7928C7EC7D0C0EA5770D4A7B9B /* Support Files */,
 			);
@@ -337,6 +350,7 @@
 		D0CC1FB52559048000D87F48 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D0A5322A255A355600E5C4D8 /* TimeInterval+Extension.swift */,
 				D0CC1FB6255904AC00D87F48 /* String+Extension.swift */,
 				D0CC1FB8255904C900D87F48 /* CGFloat+Extension.swift */,
 				D0CC1FBA255904E600D87F48 /* NSDate+Extension.swift */,
@@ -366,6 +380,8 @@
 				D0CC1FEA25593F9400D87F48 /* HeaderLinkInfoExtractor.swift */,
 				D0CC1FED2559416400D87F48 /* URL+Extension.swift */,
 				D0CC1FF02559433000D87F48 /* SessionManager.swift */,
+				D0A53227255A352000E5C4D8 /* URLComponents+Extension.swift */,
+				D0A53239255A475E00E5C4D8 /* LinkHeader.swift */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -528,6 +544,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0CC1FEC25593F9400D87F48 /* HeaderLinkInfoExtractor.swift in Sources */,
+				D0A53229255A352000E5C4D8 /* URLComponents+Extension.swift in Sources */,
 				D0CC1FF22559433000D87F48 /* SessionManager.swift in Sources */,
 				D09004A92551561C00A55A02 /* LimitObjectSetCache.swift in Sources */,
 				D0900491255134F700A55A02 /* Network.swift in Sources */,
@@ -538,13 +555,16 @@
 				D0CC1FE62559198300D87F48 /* APIRequestComponent.swift in Sources */,
 				D09004A3255155C400A55A02 /* DictionaryRepository.swift in Sources */,
 				72BD16F09C7594EAA30832FABC925DC6 /* Pods-iOS-UtilKits_Tests-dummy.m in Sources */,
+				D0A5322C255A355600E5C4D8 /* TimeInterval+Extension.swift in Sources */,
 				D0900488255134D800A55A02 /* Debouncer.swift in Sources */,
 				D090048F255134F700A55A02 /* Throttler.swift in Sources */,
 				D09004B7255169CF00A55A02 /* ImageSet.swift in Sources */,
 				D09004AC2551565B00A55A02 /* MulticastCallbackManager.swift in Sources */,
+				D0A53238255A469B00E5C4D8 /* PagingList.swift in Sources */,
 				D090049725513BF800A55A02 /* AsyncHandlerQueue.swift in Sources */,
 				D090049425513B4B00A55A02 /* AttributedStringBuilder.swift in Sources */,
 				D090048D255134F700A55A02 /* DisplayLinkTimer.swift in Sources */,
+				D0A5323B255A475E00E5C4D8 /* LinkHeader.swift in Sources */,
 				D09004B42551698100A55A02 /* MD5Processor.swift in Sources */,
 				D09004A02551554A00A55A02 /* SimpleCoalescingTimer.swift in Sources */,
 				D090049D2551552A00A55A02 /* DeviceCharacteristic.swift in Sources */,
@@ -559,6 +579,7 @@
 			files = (
 				D0CC1FA42559033900D87F48 /* NSDateFormatter+Swag.m in Sources */,
 				D0CC1F892558EF1900D87F48 /* SWDateFormatter.swift in Sources */,
+				D0A5323A255A475E00E5C4D8 /* LinkHeader.swift in Sources */,
 				D0CC1FBF2559059C00D87F48 /* Decode+Extension.swift in Sources */,
 				D09004A82551561C00A55A02 /* LimitObjectSetCache.swift in Sources */,
 				5C57F3BBBA7F399A5D4F7F3807030795 /* iOS-UtilKits-dummy.m in Sources */,
@@ -603,12 +624,15 @@
 				D0CC1F812558ECCA00D87F48 /* TaiwanTimezoneDateFormatter.swift in Sources */,
 				D090049F2551554A00A55A02 /* SimpleCoalescingTimer.swift in Sources */,
 				D0CC1FEE2559416400D87F48 /* URL+Extension.swift in Sources */,
+				D0A53237255A469B00E5C4D8 /* PagingList.swift in Sources */,
 				D090049C2551552A00A55A02 /* DeviceCharacteristic.swift in Sources */,
 				D09004B925516A5400A55A02 /* DisposeBag.swift in Sources */,
 				D0CC1FD5255906D900D87F48 /* UIScreen+Extension.swift in Sources */,
+				D0A53228255A352000E5C4D8 /* URLComponents+Extension.swift in Sources */,
 				D0CC1FC72559060200D87F48 /* UITableView+Extension.swift in Sources */,
 				D0CC1FCD2559065300D87F48 /* TimeInterval+Extension.swift in Sources */,
 				D0CC1FE22559195900D87F48 /* APIRequest.swift in Sources */,
+				D0A5322B255A355600E5C4D8 /* TimeInterval+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

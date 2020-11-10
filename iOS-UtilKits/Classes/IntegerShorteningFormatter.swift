@@ -8,21 +8,21 @@
 
 import UIKit
 
-class IntegerShorteningFormatter: Formatter {
+public class IntegerShorteningFormatter: Formatter {
     private let formatter: NumberFormatter = {
         let formatter = NumberFormatter()
         formatter.maximumFractionDigits = 1
         return formatter
     }()
     
-    override func string(for obj: Any?) -> String? {
+    public override func string(for obj: Any?) -> String? {
         if let int = obj as? Int64 {
             return string(for: int)
         }
         return nil
     }
     
-    func string(for int: Int) -> String {
+    public func string(for int: Int) -> String {
         return string(for: Int64(int))
     }
 
@@ -45,7 +45,7 @@ class IntegerShorteningFormatter: Formatter {
 
 
 extension Int64 {
-    static let thousand: Int64 = 1000
-    static let million = 1000 * thousand
-    static let billion = 1000 * million
+    public static let thousand: Int64 = 1000
+    public static let million = 1000 * thousand
+    public static let billion = 1000 * million
 }

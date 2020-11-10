@@ -8,8 +8,8 @@
 
 import Foundation
 
-class SWAdaptiveShortStyleLeftTimeFormatter:DateFormatter {
-    override func string(from date: Date) -> String {
+public class SWAdaptiveShortStyleLeftTimeFormatter:DateFormatter {
+    public override func string(from date: Date) -> String {
         var leftTime = date.timeIntervalSince1970
         
         guard leftTime > 0 else {
@@ -37,7 +37,7 @@ class SWAdaptiveShortStyleLeftTimeFormatter:DateFormatter {
 }
 
 extension DateFormatter {
-    class func rfc1123() -> DateFormatter {
+    public class func rfc1123() -> DateFormatter {
         let dateFormatter = DateFormatter()
         dateFormatter.locale = Locale(identifier: "en_US")
         dateFormatter.timeZone = TimeZone(abbreviation: "GMT")
