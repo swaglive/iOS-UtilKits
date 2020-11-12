@@ -19,7 +19,7 @@ extension DateFormatter {
 }
 
 extension Date {
-    static func - (lhs: Date, rhs: Date) -> TimeInterval {
+    public static func - (lhs: Date, rhs: Date) -> TimeInterval {
         lhs.timeIntervalSinceReferenceDate - rhs.timeIntervalSinceReferenceDate
     }
 }

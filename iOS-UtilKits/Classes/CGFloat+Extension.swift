@@ -12,7 +12,7 @@ extension CGFloat {
     public var ceil: CGFloat {
         return CGFloat(ceilf(Float(self)))
     }
-    var floor: CGFloat {
+    public var floor: CGFloat {
         return CGFloat(floorf(Float(self)))
     }
 }
