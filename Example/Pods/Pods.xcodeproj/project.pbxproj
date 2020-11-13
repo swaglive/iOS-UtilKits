@@ -52,6 +52,8 @@
 		D0A53238255A469B00E5C4D8 /* PagingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A53236255A469A00E5C4D8 /* PagingList.swift */; };
 		D0A5323A255A475E00E5C4D8 /* LinkHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A53239255A475E00E5C4D8 /* LinkHeader.swift */; };
 		D0A5323B255A475E00E5C4D8 /* LinkHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A53239255A475E00E5C4D8 /* LinkHeader.swift */; };
+		D0C95B35255E2ECE009E8CD1 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C95B34255E2ECE009E8CD1 /* UILabel+Extension.swift */; };
+		D0C95B36255E2ECE009E8CD1 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C95B34255E2ECE009E8CD1 /* UILabel+Extension.swift */; };
 		D0CC1F7E2558EC3C00D87F48 /* SWShareTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F7D2558EC3C00D87F48 /* SWShareTool.swift */; };
 		D0CC1F812558ECCA00D87F48 /* TaiwanTimezoneDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F802558ECC900D87F48 /* TaiwanTimezoneDateFormatter.swift */; };
 		D0CC1F842558ED3800D87F48 /* SWAppNumberFormatters.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CC1F822558ED3800D87F48 /* SWAppNumberFormatters.h */; };
@@ -151,6 +153,7 @@
 		D0A5322A255A355600E5C4D8 /* TimeInterval+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Extension.swift"; path = "iOS-UtilKits/Classes/TimeInterval+Extension.swift"; sourceTree = "<group>"; };
 		D0A53236255A469A00E5C4D8 /* PagingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagingList.swift; path = "iOS-UtilKits/Classes/PagingList.swift"; sourceTree = "<group>"; };
 		D0A53239255A475E00E5C4D8 /* LinkHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinkHeader.swift; path = "iOS-UtilKits/Classes/LinkHeader.swift"; sourceTree = "<group>"; };
+		D0C95B34255E2ECE009E8CD1 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UILabel+Extension.swift"; path = "iOS-UtilKits/Classes/UILabel+Extension.swift"; sourceTree = "<group>"; };
 		D0CC1F7D2558EC3C00D87F48 /* SWShareTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWShareTool.swift; path = "iOS-UtilKits/Classes/SWShareTool.swift"; sourceTree = "<group>"; };
 		D0CC1F802558ECC900D87F48 /* TaiwanTimezoneDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaiwanTimezoneDateFormatter.swift; path = "iOS-UtilKits/Classes/TaiwanTimezoneDateFormatter.swift"; sourceTree = "<group>"; };
 		D0CC1F822558ED3800D87F48 /* SWAppNumberFormatters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWAppNumberFormatters.h; path = "iOS-UtilKits/Classes/SWAppNumberFormatters.h"; sourceTree = "<group>"; };
@@ -367,6 +370,7 @@
 				D0CC1FD0255906AB00D87F48 /* Decodable+Extension.swift */,
 				D0CC1FD2255906B700D87F48 /* Encodable+Extension.swift */,
 				D0CC1FD4255906D900D87F48 /* UIScreen+Extension.swift */,
+				D0C95B34255E2ECE009E8CD1 /* UILabel+Extension.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -567,6 +571,7 @@
 				D0A5323B255A475E00E5C4D8 /* LinkHeader.swift in Sources */,
 				D09004B42551698100A55A02 /* MD5Processor.swift in Sources */,
 				D09004A02551554A00A55A02 /* SimpleCoalescingTimer.swift in Sources */,
+				D0C95B36255E2ECE009E8CD1 /* UILabel+Extension.swift in Sources */,
 				D090049D2551552A00A55A02 /* DeviceCharacteristic.swift in Sources */,
 				D0CC1FE32559195900D87F48 /* APIRequest.swift in Sources */,
 				D09004BA25516A5400A55A02 /* DisposeBag.swift in Sources */,
@@ -585,6 +590,7 @@
 				5C57F3BBBA7F399A5D4F7F3807030795 /* iOS-UtilKits-dummy.m in Sources */,
 				D0CC1FE8255919A500D87F48 /* URLStringBuilder.swift in Sources */,
 				D09004A5255155F100A55A02 /* SynchronizedArray.swift in Sources */,
+				D0C95B35255E2ECE009E8CD1 /* UILabel+Extension.swift in Sources */,
 				D09004AE255156C600A55A02 /* DebugFunctions.swift in Sources */,
 				D0CC1FBB255904E600D87F48 /* NSDate+Extension.swift in Sources */,
 				D0CC1FA02558F64B00D87F48 /* FreeTouchDetector.m in Sources */,

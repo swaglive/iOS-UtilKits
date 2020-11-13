@@ -14,6 +14,10 @@ public class AttributedStringBuilder {
     public init() {
     }
     
+    public init(attributeds: [NSAttributedString.Key: Any] = [:]) {
+        self.attributeds.merge(attributeds) { (_, new) in new }
+    }
+    
     @discardableResult public func font(_ font: UIFont) -> AttributedStringBuilder {
         attributeds[NSAttributedString.Key.font] = font
         return self
