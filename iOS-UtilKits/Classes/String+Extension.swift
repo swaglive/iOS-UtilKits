@@ -44,6 +44,43 @@ extension String {
         })
         return String(result)
     }
+        
+    public var isValidateEmailFormat: Bool {
+        let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+        let emailCheck = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
+        return emailCheck.evaluate(with: self)
+    }
+    
+    public subscript (bounds: CountableClosedRange<Int>) -> String {
+        let start = index(startIndex, offsetBy: bounds.lowerBound)
+        let end = index(startIndex, offsetBy: bounds.upperBound)
+        return String(self[start...end])
+    }
+    
+    public subscript (bounds: CountableRange<Int>) -> String {
+        let start = index(startIndex, offsetBy: bounds.lowerBound)
+        let end = index(startIndex, offsetBy: bounds.upperBound)
+        return String(self[start..<end])
+    }
+    public subscript (i: Int) -> Character {
+        return self[self.index(self.startIndex, offsetBy: i)]
+    }
+    
+    public subscript (i: Int) -> String {
+        return String(self[i] as Character)
+    }
+
+    public func containsOnlyDigits() -> Bool
+    {
+        let notDigits = NSCharacterSet.decimalDigits.inverted
+        
+        if rangeOfCharacter(from: notDigits, options: String.CompareOptions.literal, range: nil) == nil
+        {
+            return true
+        }
+        return false
+    }
+
 }
 
 extension StringProtocol {
