@@ -8,7 +8,7 @@
 
 #import "NSMutableDictionary+Swag.h"
 
-@implementation NSMutableDictionary (Swag)
+@implementation NSMutableDictionary (SwagUtilKits)
 
 - (void)setObjectIfPossible:(id)object forKey:(id <NSCopying>)key {
     if (!object || !key) {

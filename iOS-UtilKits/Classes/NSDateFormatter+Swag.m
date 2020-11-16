@@ -8,7 +8,7 @@
 
 #import "NSDateFormatter+Swag.h"
 
-@implementation NSDateFormatter (Swag)
+@implementation NSDateFormatter (SwagUtilKits)
 
 + (NSDateFormatter *)SWHourMinuteFormatter {
     NSDateFormatter *formatter = [NSDateFormatter new];

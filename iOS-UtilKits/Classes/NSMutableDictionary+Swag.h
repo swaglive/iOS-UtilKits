@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSMutableDictionary (Swag)
+@interface NSMutableDictionary (SwagUtilKits)
 
 - (void)setObjectIfPossible:(id)object forKey:(id <NSCopying>)key;
 

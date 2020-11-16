@@ -9,7 +9,7 @@
 #import "UIApplication+Swag.h"
 #import <mach-o/dyld.h>
 
-@implementation UIApplication (Swag)
+@implementation UIApplication (SwagUtilKits)
 
 - (BOOL)jailbreakTweakExists:(NSString *)tweakName {
     if (tweakName.length == 0) {

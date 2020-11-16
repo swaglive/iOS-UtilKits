@@ -8,7 +8,7 @@
 
 #import <AVFoundation/AVFoundation.h>
 
-@interface AVURLAsset (Swag)
+@interface AVURLAsset (SwagUtilKits)
 
 + (UIImage *)thumbnailWithURL:(NSURL *)URL timeValue:(NSTimeInterval)timeValue;
 

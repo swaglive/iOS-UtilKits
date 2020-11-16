@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIApplication (Swag)
+@interface UIApplication (SwagUtilKits)
 
 - (BOOL)UniversalVideoDownloaderExists;
 

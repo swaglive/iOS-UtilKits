@@ -9,7 +9,7 @@
 #import "AVURLAsset+Swag.h"
 #import <UIKit/UIImage.h>
 
-@implementation AVURLAsset (Swag)
+@implementation AVURLAsset (SwagUtilKits)
 
 + (UIImage *)thumbnailWithURL:(NSURL *)URL timeValue:(NSTimeInterval)timeValue {
     AVAsset *asset = [AVAsset assetWithURL:URL];

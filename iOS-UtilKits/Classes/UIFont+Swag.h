@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIFont (Swag)
+@interface UIFont (SwagUtilKits)
 
 + (instancetype)lightSystemFontOfSize:(CGFloat)fontSize;
 + (instancetype)regularSystemFontOfSize:(CGFloat)fontSize;

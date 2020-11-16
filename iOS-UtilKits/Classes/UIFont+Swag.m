@@ -8,7 +8,7 @@
 
 #import "UIFont+Swag.h"
 
-@implementation UIFont (Swag)
+@implementation UIFont (SwagUtilKits)
 
 #pragma deploymate push "ignored-api-availability"
 
