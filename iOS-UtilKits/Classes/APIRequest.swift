@@ -78,7 +78,7 @@ public class APIRequest: URLRequestBuilder {
         self.needsUserAgent = needsUserAgent
         return self
     }
-    private var acceptLanguage: String = ""
+    public private(set) var acceptLanguage: String?
     @discardableResult public func setAcceptLanguage(_ acceptLanguage: String) -> APIRequest {
         self.acceptLanguage = acceptLanguage
         return self
@@ -135,7 +135,9 @@ public class APIRequest: URLRequestBuilder {
         if let policy = self.policy {
             request.cachePolicy = policy
         }
-        request.setValue(acceptLanguage, forHTTPHeaderField: RequestHeaderKey.acceptLanguage)
+        if let acceptLanguage = acceptLanguage {
+            request.setValue(acceptLanguage, forHTTPHeaderField: RequestHeaderKey.acceptLanguage)
+        }
         
         setBody(&request, body: body, parameters: parameters)
         
