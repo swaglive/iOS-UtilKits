@@ -35,10 +35,10 @@ public class DictionaryRepository {
         }
     }
     public var keys: [String] {
-        return storedKeys
+        queue.sync { storedKeys }
     }
     public var values: [Any] {
-        return Array(dictionary.values)
+        queue.sync { Array(dictionary.values) }
     }
     public func isContains(_ key: String) -> Bool {
         var result = false

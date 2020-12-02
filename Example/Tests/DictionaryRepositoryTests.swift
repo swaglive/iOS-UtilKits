@@ -10,12 +10,16 @@ import XCTest
 import iOS_UtilKits
 
 class DictionaryRepositoryTests: XCTestCase {
-    let repository = DictionaryRepository()
+    var repository: DictionaryRepository!
     
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        repository = DictionaryRepository()
     }
 
+    override func tearDown() {
+        repository.removeAll()
+    }
+    
     func testAppendAndRemove() {
         repository.append(key: "1", value: "A")
         XCTAssertTrue(repository.isContains("1"))
@@ -43,6 +47,25 @@ class DictionaryRepositoryTests: XCTestCase {
         XCTAssertTrue(repository.isContains("2"))
         XCTAssertTrue(repository.isContains("3"))
         XCTAssertTrue(repository.keys.count == 3)
+    }
+    
+    func testMultiThreadAccess() {
+        repository.append(key: "1", value: 1)
+        
+        let expectation = self.expectation(description: "background access")
+        expectation.expectedFulfillmentCount = 2
+        DispatchQueue.global().async {
+            self.repository.append(key: "1", value: 2)
+            expectation.fulfill()
+        }
+        
+        DispatchQueue.global().async {
+            self.repository.append(key: "2", value: 3)
+            expectation.fulfill()
+        }
+        
+        waitForExpectations(timeout: 1, handler: nil)
+        XCTAssertEqual(repository.values.count, 2)
     }
     
 }
