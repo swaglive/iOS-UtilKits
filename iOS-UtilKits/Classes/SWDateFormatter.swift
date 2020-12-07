@@ -9,9 +9,8 @@
 import Foundation
 
 public class SWAdaptiveShortStyleLeftTimeFormatter:DateFormatter {
-    public func string(from date: Date, isForceContainHour: Bool = false) -> String {
-        var leftTime = date.timeIntervalSince1970
-        
+    public func string(from duration:TimeInterval, isForceContainHour: Bool = false)  -> String {
+        var leftTime = duration
         guard leftTime > 0 else {
             return isForceContainHour ? "00:00:00" : "00:00"
         }
@@ -33,6 +32,11 @@ public class SWAdaptiveShortStyleLeftTimeFormatter:DateFormatter {
         } else {
             return "\(textMinutes):\(textSecond)"
         }
+    }
+    
+    public func string(from date: Date, isForceContainHour: Bool = false) -> String {
+        let leftTime = date.timeIntervalSince1970
+        return string(from: leftTime, isForceContainHour: isForceContainHour)
     }
 }
 
