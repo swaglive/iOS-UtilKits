@@ -8,6 +8,7 @@
 
 import Foundation
 
+@objc
 public protocol Identifiable {
     var identifier: String { get }
 }
