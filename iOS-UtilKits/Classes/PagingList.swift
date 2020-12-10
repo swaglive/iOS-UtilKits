@@ -389,4 +389,10 @@ extension PagingList {
             return result
         }
     }
+    func indexOf(_ index: Int) -> AnyObject? {
+        if index < count {
+            return items[index]
+        }
+        return nil
+    }
 }
