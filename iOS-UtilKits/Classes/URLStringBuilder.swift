@@ -9,9 +9,13 @@
 import Foundation
 
 public class URLStringBuilder {
+    private struct QueryItem {
+        let key: String
+        let value: String
+    }
     private var base: String
     private var paths: [String] = []
-    private var query: [String: String] = [:]
+    private var query: [QueryItem] = []
     private var extensionFormat: String?
     
     /// The urlString must be an legal URL string; otherwise, builder will return an empty string.
@@ -26,7 +30,7 @@ public class URLStringBuilder {
     }
     
     public func query(key: String, value: String) -> URLStringBuilder {
-        query[key] = value
+        query.append(QueryItem(key: key, value: value))
         return self
     }
     
