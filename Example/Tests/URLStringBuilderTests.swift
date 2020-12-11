@@ -85,4 +85,11 @@ class URLStringBuilderTests: XCTestCase {
         
         XCTAssertEqual(url, "https://api.swag.live/me/unlocked-users?type=story")
     }
+    func testTwoQueriesWithSameName() {
+        let url = URLStringBuilder(urlString: baseURL)
+            .query(key: "key1", value: "value1")
+            .query(key: "key1", value: "value2")
+            .string
+        XCTAssertEqual(url, "https://api.swag.live?key1=value1&key1=value2")
+    }
 }
