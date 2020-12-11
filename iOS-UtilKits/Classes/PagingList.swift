@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 public protocol Identifiable {
     var identifier: String { get }
 }
@@ -387,5 +388,11 @@ extension PagingList {
             }
             return result
         }
+    }
+    public func indexOf(_ index: Int) -> AnyObject? {
+        if index < count {
+            return items[index] as AnyObject
+        }
+        return nil
     }
 }

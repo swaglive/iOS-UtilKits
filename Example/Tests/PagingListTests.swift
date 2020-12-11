@@ -22,7 +22,7 @@ class PagingListTest: XCTestCase {
     }
     
     
-    struct T: Identifiable {
+    class T: Identifiable {
         let id: String
         let value: Int
         
