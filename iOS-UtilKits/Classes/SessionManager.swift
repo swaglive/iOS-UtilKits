@@ -21,7 +21,7 @@ public class SessionManager : NSObject {
         let configuration = URLSessionConfiguration.default
         configuration.httpMaximumConnectionsPerHost = 4
         return URLSession(
-            configuration: URLSessionConfiguration.default,
+            configuration: configuration,
             delegate: sessionDelegate,
             delegateQueue: sessionQueue)
     }()
