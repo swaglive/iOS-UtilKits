@@ -33,9 +33,22 @@ public class ImageSet: NSObject {
 
 
 public struct ImageSize {
+    //2^n, 11 => 2^11 = 2048
+    static private let maximumSupportPowerOfTwo: Int = 11
+    static private var maximumSupportSizeWidth: Int {
+        return NSDecimalNumber(decimal: pow(2, maximumSupportPowerOfTwo)).intValue
+    }
+    
+    static private var coerceInPowerOfTwo: Int {
+        let screenMaxWidth = max(Int(UIScreen.main.bounds.size.width), Int(UIScreen.main.bounds.size.height))
+        let coerceInPowerOfTwo = (5...maximumSupportPowerOfTwo)
+            .map({ NSDecimalNumber(decimal: pow(2, $0)).intValue })
+            .filter({ Int($0) >= screenMaxWidth })
+            .first ?? maximumSupportSizeWidth
+        return min(coerceInPowerOfTwo, maximumSupportSizeWidth)
+    }
     
     public let width, height: Int
-    
     public var scaledWidth: Int { return width * Int(UIScreen.main.scale) }
     public var scaledHeight: Int { return height * Int(UIScreen.main.scale) }
     
@@ -47,5 +60,5 @@ public struct ImageSize {
     
     static public let large = ImageSize(width: 1024, height: 1024)
     
-    static public let fullscreen = ImageSize(width: Int(UIScreen.main.bounds.size.width), height: Int(UIScreen.main.bounds.size.height))
+    static public let fullscreen = ImageSize(width: coerceInPowerOfTwo, height: coerceInPowerOfTwo)
 }
