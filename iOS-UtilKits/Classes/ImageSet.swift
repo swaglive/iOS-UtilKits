@@ -26,7 +26,7 @@ public class ImageSet: NSObject {
     
     lazy public var large: URL = pathBuilder(ImageSize.large.width, ImageSize.large.height)
     
-    lazy public var fullscreen: URL = pathBuilder(ImageSize.fullscreen.scaledWidth, ImageSize.fullscreen.scaledHeight)
+    lazy public var fullscreen: URL = pathBuilder(ImageSize.fullscreen.width, ImageSize.fullscreen.height)
     
     lazy public var all: [URL] = [thumbnail, small, medium, large, fullscreen]
 }
@@ -40,7 +40,8 @@ public struct ImageSize {
     }
     
     static private var coerceInPowerOfTwo: Int {
-        let screenMaxWidth = max(Int(UIScreen.main.bounds.size.width), Int(UIScreen.main.bounds.size.height))
+        let screenMaxWidth = max(Int(UIScreen.main.bounds.size.width),
+                                 Int(UIScreen.main.bounds.size.height)) * Int(UIScreen.main.scale)
         let coerceInPowerOfTwo = (5...maximumSupportPowerOfTwo)
             .map({ NSDecimalNumber(decimal: pow(2, $0)).intValue })
             .filter({ Int($0) >= screenMaxWidth })
@@ -49,8 +50,6 @@ public struct ImageSize {
     }
     
     public let width, height: Int
-    public var scaledWidth: Int { return width * Int(UIScreen.main.scale) }
-    public var scaledHeight: Int { return height * Int(UIScreen.main.scale) }
     
     static public let thumbnail = ImageSize(width: 64, height: 64)
     
