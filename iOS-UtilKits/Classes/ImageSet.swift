@@ -26,6 +26,8 @@ public class ImageSet: NSObject {
     
     lazy public var large: URL = pathBuilder(ImageSize.large.width, ImageSize.large.height)
     
+    lazy public var extraLarge: URL = pathBuilder(ImageSize.extraLarge.width, ImageSize.extraLarge.height)
+
     lazy public var fullscreen: URL = pathBuilder(ImageSize.fullscreen.width, ImageSize.fullscreen.height)
     
     lazy public var all: [URL] = [thumbnail, small, medium, large, fullscreen]
@@ -57,7 +59,9 @@ public struct ImageSize {
     
     static public let medium = ImageSize(width: 256, height: 256)
     
-    static public let large = ImageSize(width: 1024, height: 1024)
+    static public let large = ImageSize(width: 512, height: 512)
     
+    static public let extraLarge = ImageSize(width: 1024, height: 1024)
+
     static public let fullscreen = ImageSize(width: coerceInPowerOfTwo, height: coerceInPowerOfTwo)
 }
