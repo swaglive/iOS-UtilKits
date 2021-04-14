@@ -9,10 +9,9 @@
 import Foundation
 
 extension Dictionary {
-    public var prettyPrintedJSONString: String? {
-        guard let jsonData = try? JSONSerialization.data(withJSONObject: self, options: .prettyPrinted) else {
-            return nil
-        }
-        return jsonData.prettyPrintedJSONString
+    public var jsonString: String? {
+        guard let data = try? JSONSerialization.data(withJSONObject: self, options: []),
+              let json = data.jsonString else { return nil }
+        return json
     }
 }
