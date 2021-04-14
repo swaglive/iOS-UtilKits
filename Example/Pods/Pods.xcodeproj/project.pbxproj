@@ -13,6 +13,7 @@
 		72BD16F09C7594EAA30832FABC925DC6 /* Pods-iOS-UtilKits_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D65E479871DA72D6C69CDF2B11EE31 /* Pods-iOS-UtilKits_Tests-dummy.m */; };
 		90B89B9F20A4D204CF24DB5A1860DFC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B698D26C261C3404002EB1D7 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698D26B261C3404002EB1D7 /* Data+Extension.swift */; };
+		B6A5EB152626F4910053A322 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5EB142626F4910053A322 /* Dictionary+Extension.swift */; };
 		D0900487255134D800A55A02 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0900486255134D800A55A02 /* Debouncer.swift */; };
 		D0900488255134D800A55A02 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0900486255134D800A55A02 /* Debouncer.swift */; };
 		D090048C255134F700A55A02 /* DisplayLinkTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0900489255134F700A55A02 /* DisplayLinkTimer.swift */; };
@@ -136,6 +137,7 @@
 		AB5002C29D5D044B4E3AA026B55A1199 /* iOS-UtilKits.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "iOS-UtilKits.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B311A9F1C27DE1C37F38F1E7737104E1 /* Pods-iOS-UtilKits_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-UtilKits_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B698D26B261C3404002EB1D7 /* Data+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "iOS-UtilKits/Classes/Data+Extension.swift"; sourceTree = "<group>"; };
+		B6A5EB142626F4910053A322 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Dictionary+Extension.swift"; path = "iOS-UtilKits/Classes/Dictionary+Extension.swift"; sourceTree = "<group>"; };
 		B8D65E479871DA72D6C69CDF2B11EE31 /* Pods-iOS-UtilKits_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-UtilKits_Tests-dummy.m"; sourceTree = "<group>"; };
 		CDE2F49ECC9513D9D2DAFC7E42223E09 /* Pods-iOS-UtilKits_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-UtilKits_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0900486255134D800A55A02 /* Debouncer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Debouncer.swift; path = "iOS-UtilKits/Classes/Debouncer.swift"; sourceTree = "<group>"; };
@@ -379,6 +381,7 @@
 				D0CC1FD4255906D900D87F48 /* UIScreen+Extension.swift */,
 				D0C95B34255E2ECE009E8CD1 /* UILabel+Extension.swift */,
 				B698D26B261C3404002EB1D7 /* Data+Extension.swift */,
+				B6A5EB142626F4910053A322 /* Dictionary+Extension.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -651,6 +654,7 @@
 				D0CC1FCD2559065300D87F48 /* TimeInterval+Extension.swift in Sources */,
 				D0CC1FE22559195900D87F48 /* APIRequest.swift in Sources */,
 				D0A5322B255A355600E5C4D8 /* TimeInterval+Extension.swift in Sources */,
+				B6A5EB152626F4910053A322 /* Dictionary+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
