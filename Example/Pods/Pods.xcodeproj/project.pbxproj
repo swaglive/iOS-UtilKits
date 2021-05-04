@@ -12,7 +12,6 @@
 		686D6CFC4305624906C3FA45E8CF9BE9 /* iOS-UtilKits-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 033355FEB9E3E93A9F8BE468DDF01DB5 /* iOS-UtilKits-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72BD16F09C7594EAA30832FABC925DC6 /* Pods-iOS-UtilKits_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D65E479871DA72D6C69CDF2B11EE31 /* Pods-iOS-UtilKits_Tests-dummy.m */; };
 		90B89B9F20A4D204CF24DB5A1860DFC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B688F8E62631748800F2ECB1 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B688F8E52631748800F2ECB1 /* CALayer+Extension.swift */; };
 		B698D26C261C3404002EB1D7 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698D26B261C3404002EB1D7 /* Data+Extension.swift */; };
 		B6A5EB152626F4910053A322 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5EB142626F4910053A322 /* Dictionary+Extension.swift */; };
 		D0900487255134D800A55A02 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0900486255134D800A55A02 /* Debouncer.swift */; };
@@ -137,7 +136,6 @@
 		9DBB43F897399A4182511C3577933EE6 /* iOS-UtilKits.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "iOS-UtilKits.modulemap"; sourceTree = "<group>"; };
 		AB5002C29D5D044B4E3AA026B55A1199 /* iOS-UtilKits.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "iOS-UtilKits.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B311A9F1C27DE1C37F38F1E7737104E1 /* Pods-iOS-UtilKits_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-UtilKits_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B688F8E52631748800F2ECB1 /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CALayer+Extension.swift"; path = "iOS-UtilKits/Classes/CALayer+Extension.swift"; sourceTree = "<group>"; };
 		B698D26B261C3404002EB1D7 /* Data+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "iOS-UtilKits/Classes/Data+Extension.swift"; sourceTree = "<group>"; };
 		B6A5EB142626F4910053A322 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Dictionary+Extension.swift"; path = "iOS-UtilKits/Classes/Dictionary+Extension.swift"; sourceTree = "<group>"; };
 		B8D65E479871DA72D6C69CDF2B11EE31 /* Pods-iOS-UtilKits_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-UtilKits_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -377,7 +375,6 @@
 				D0CC1FC82559062B00D87F48 /* UITableViewCell+Extension.swift */,
 				D0CC1FCA2559064400D87F48 /* UITextView+Extension.swift */,
 				D0CC1FCC2559065300D87F48 /* TimeInterval+Extension.swift */,
-				B688F8E52631748800F2ECB1 /* CALayer+Extension.swift */,
 				D0CC1FCE2559069400D87F48 /* UIImage+Extension.swift */,
 				D0CC1FD0255906AB00D87F48 /* Decodable+Extension.swift */,
 				D0CC1FD2255906B700D87F48 /* Encodable+Extension.swift */,
@@ -620,7 +617,6 @@
 				D0CC1F7E2558EC3C00D87F48 /* SWShareTool.swift in Sources */,
 				D0CC1FAF255903EA00D87F48 /* UIFont+Swag.m in Sources */,
 				D090048E255134F700A55A02 /* Throttler.swift in Sources */,
-				B688F8E62631748800F2ECB1 /* CALayer+Extension.swift in Sources */,
 				D0CC1FCF2559069400D87F48 /* UIImage+Extension.swift in Sources */,
 				D0900490255134F700A55A02 /* Network.swift in Sources */,
 				D0CC1F872558EF0400D87F48 /* IntegerShorteningFormatter.swift in Sources */,
