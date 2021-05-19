@@ -23,10 +23,10 @@ static NSString * const kNilSymbol = @"--";
 - (instancetype)init {
     self = [super init];
     if (self) {
-        _diamondNumberFormatter = [self.class createDiamondNumberFormatter];
-        _signedDiamondNumberFormatter = [self.class createSignedDiamondNumberFormatter];
+        _memberNumberFormatter = [self.class creatememberNumberFormatter];
+        _signedMemberNumberFormatter = [self.class createSignedmemberNumberFormatter];
         _decimalNumberFormatter = [self.class createDecimalNumberFormatter];
-        _revnueNumberFormatter = [self.class createRevenueNumberFormatter];
+        _readCountNumberFormatter = [self.class createRevenueNumberFormatter];
         _ungroupedDecimalNumberFormatter = [self.class createUngroupedDecimalNumberFormatter];
         _percentageFormatter = [self.class createPercentageNumberFormatter];
     }
@@ -46,15 +46,15 @@ static NSString * const kNilSymbol = @"--";
     return formatter;
 }
 
-+ (NSNumberFormatter *)createCurrencyNumberFormatter {
++ (NSNumberFormatter *)createBackgroundColorCodeNumberFormatter {
     NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
     formatter.numberStyle = NSNumberFormatterCurrencyStyle;
     formatter.nilSymbol = kNilSymbol;
     return formatter;
 }
 
-+ (NSNumberFormatter *)createCurrencyFormatterWithLocale:(NSLocale *)locale {
-    NSNumberFormatter *formatter = [self createCurrencyNumberFormatter];
++ (NSNumberFormatter *)createBackgroundColorCodeFormatterWithLocale:(NSLocale *)locale {
+    NSNumberFormatter *formatter = [self createBackgroundColorCodeNumberFormatter];
     NSString *currencyCode = [NSString stringWithFormat:@"(%@)", locale.currencyCode];
     formatter.locale = locale;
     formatter.negativeSuffix = currencyCode;
@@ -62,7 +62,7 @@ static NSString * const kNilSymbol = @"--";
     return formatter;
 }
 
-+ (NSNumberFormatter *)createDiamondNumberFormatter {
++ (NSNumberFormatter *)creatememberNumberFormatter {
     NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
     formatter.numberStyle = NSNumberFormatterDecimalStyle;
     formatter.usesGroupingSeparator = YES;
@@ -72,8 +72,8 @@ static NSString * const kNilSymbol = @"--";
     return formatter;
 }
 
-+ (NSNumberFormatter *)createSignedDiamondNumberFormatter {
-    NSNumberFormatter *formatter = [self createDiamondNumberFormatter];
++ (NSNumberFormatter *)createSignedmemberNumberFormatter {
+    NSNumberFormatter *formatter = [self creatememberNumberFormatter];
     formatter.positivePrefix = @"+";
     formatter.negativePrefix = @"-";
     return formatter;

@@ -56,8 +56,6 @@
 		D0A5323B255A475E00E5C4D8 /* LinkHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A53239255A475E00E5C4D8 /* LinkHeader.swift */; };
 		D0C95B35255E2ECE009E8CD1 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C95B34255E2ECE009E8CD1 /* UILabel+Extension.swift */; };
 		D0C95B36255E2ECE009E8CD1 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C95B34255E2ECE009E8CD1 /* UILabel+Extension.swift */; };
-		D0C95B38255E31D1009E8CD1 /* CreditCardFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C95B37255E31D1009E8CD1 /* CreditCardFormatter.swift */; };
-		D0C95B39255E31D1009E8CD1 /* CreditCardFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C95B37255E31D1009E8CD1 /* CreditCardFormatter.swift */; };
 		D0C95B3A255E3475009E8CD1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1FB6255904AC00D87F48 /* String+Extension.swift */; };
 		D0CC1F7E2558EC3C00D87F48 /* SWShareTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F7D2558EC3C00D87F48 /* SWShareTool.swift */; };
 		D0CC1F812558ECCA00D87F48 /* TaiwanTimezoneDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC1F802558ECC900D87F48 /* TaiwanTimezoneDateFormatter.swift */; };
@@ -161,7 +159,6 @@
 		D0A53236255A469A00E5C4D8 /* PagingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagingList.swift; path = "iOS-UtilKits/Classes/PagingList.swift"; sourceTree = "<group>"; };
 		D0A53239255A475E00E5C4D8 /* LinkHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinkHeader.swift; path = "iOS-UtilKits/Classes/LinkHeader.swift"; sourceTree = "<group>"; };
 		D0C95B34255E2ECE009E8CD1 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UILabel+Extension.swift"; path = "iOS-UtilKits/Classes/UILabel+Extension.swift"; sourceTree = "<group>"; };
-		D0C95B37255E31D1009E8CD1 /* CreditCardFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreditCardFormatter.swift; path = "iOS-UtilKits/Classes/CreditCardFormatter.swift"; sourceTree = "<group>"; };
 		D0CC1F7D2558EC3C00D87F48 /* SWShareTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWShareTool.swift; path = "iOS-UtilKits/Classes/SWShareTool.swift"; sourceTree = "<group>"; };
 		D0CC1F802558ECC900D87F48 /* TaiwanTimezoneDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaiwanTimezoneDateFormatter.swift; path = "iOS-UtilKits/Classes/TaiwanTimezoneDateFormatter.swift"; sourceTree = "<group>"; };
 		D0CC1F822558ED3800D87F48 /* SWAppNumberFormatters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWAppNumberFormatters.h; path = "iOS-UtilKits/Classes/SWAppNumberFormatters.h"; sourceTree = "<group>"; };
@@ -277,7 +274,6 @@
 				D0CC1F9D2558F64B00D87F48 /* FreeTouchDetector.h */,
 				D0CC1F9E2558F64B00D87F48 /* FreeTouchDetector.m */,
 				D0A53236255A469A00E5C4D8 /* PagingList.swift */,
-				D0C95B37255E31D1009E8CD1 /* CreditCardFormatter.swift */,
 				82A97E9187CC554EA544F93EB782F8B7 /* Pod */,
 				30750F7928C7EC7D0C0EA5770D4A7B9B /* Support Files */,
 			);
@@ -583,7 +579,6 @@
 				D09004B42551698100A55A02 /* MD5Processor.swift in Sources */,
 				D09004A02551554A00A55A02 /* SimpleCoalescingTimer.swift in Sources */,
 				D0C95B36255E2ECE009E8CD1 /* UILabel+Extension.swift in Sources */,
-				D0C95B39255E31D1009E8CD1 /* CreditCardFormatter.swift in Sources */,
 				D090049D2551552A00A55A02 /* DeviceCharacteristic.swift in Sources */,
 				D0CC1FE32559195900D87F48 /* APIRequest.swift in Sources */,
 				D0C95B3A255E3475009E8CD1 /* String+Extension.swift in Sources */,
@@ -621,7 +616,6 @@
 				D0900490255134F700A55A02 /* Network.swift in Sources */,
 				D0CC1F872558EF0400D87F48 /* IntegerShorteningFormatter.swift in Sources */,
 				D0900487255134D800A55A02 /* Debouncer.swift in Sources */,
-				D0C95B38255E31D1009E8CD1 /* CreditCardFormatter.swift in Sources */,
 				D0CC1FC3255905BF00D87F48 /* Date+Extension.swift in Sources */,
 				D09004B6255169CF00A55A02 /* ImageSet.swift in Sources */,
 				D0CC1FD3255906B700D87F48 /* Encodable+Extension.swift in Sources */,

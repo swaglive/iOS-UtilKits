@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface SWAppNumberFormatters : NSObject
 
 + (instancetype)sharedInstance;
-+ (NSNumberFormatter *)createCurrencyFormatterWithLocale:(NSLocale *)locale;
++ (NSNumberFormatter *)createBackgroundColorFormatterWithLocale:(NSLocale *)locale;
 
 /**
  Original 99999 -> 99999
@@ -33,16 +33,16 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  99999999999 -> 99,999,999,999
  */
-@property (strong, nonatomic, readonly) NSNumberFormatter *diamondNumberFormatter;
+@property (strong, nonatomic, readonly) NSNumberFormatter *memberNumberFormatter;
 
 /**
  99999999999 -> 99,999,999,999
  */
-@property (strong, nonatomic, readonly) NSNumberFormatter *revnueNumberFormatter;
+@property (strong, nonatomic, readonly) NSNumberFormatter *readCountNumberFormatter;
 
 /**
  99999 -> +99,999
  */
-@property (strong, nonatomic, readonly) NSNumberFormatter *signedDiamondNumberFormatter;
+@property (strong, nonatomic, readonly) NSNumberFormatter *signedMemberNumberFormatter;
 @end
 NS_ASSUME_NONNULL_END
