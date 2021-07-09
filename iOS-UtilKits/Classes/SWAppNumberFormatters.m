@@ -46,19 +46,19 @@ static NSString * const kNilSymbol = @"--";
     return formatter;
 }
 
-+ (NSNumberFormatter *)createCurrencyNumberFormatter {
++ (NSNumberFormatter *)createCRYNumberFormatter {
     NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
     formatter.numberStyle = NSNumberFormatterCurrencyStyle;
     formatter.nilSymbol = kNilSymbol;
     return formatter;
 }
 
-+ (NSNumberFormatter *)createCurrencyFormatterWithLocale:(NSLocale *)locale {
-    NSNumberFormatter *formatter = [self createCurrencyNumberFormatter];
-    NSString *currencyCode = [NSString stringWithFormat:@"(%@)", locale.currencyCode];
++ (NSNumberFormatter *)createCRYFormatterWithLocale:(NSLocale *)locale {
+    NSNumberFormatter *formatter = [self createCRYNumberFormatter];
+    NSString *cryCode = [NSString stringWithFormat:@"(%@)", locale.currencyCode];
     formatter.locale = locale;
-    formatter.negativeSuffix = currencyCode;
-    formatter.positiveSuffix = currencyCode;
+    formatter.negativeSuffix = cryCode;
+    formatter.positiveSuffix = cryCode;
     return formatter;
 }
 
