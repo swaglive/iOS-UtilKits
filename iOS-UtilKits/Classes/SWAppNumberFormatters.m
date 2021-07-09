@@ -23,8 +23,8 @@ static NSString * const kNilSymbol = @"--";
 - (instancetype)init {
     self = [super init];
     if (self) {
-        _diamondNumberFormatter = [self.class createDiamondNumberFormatter];
-        _signedDiamondNumberFormatter = [self.class createSignedDiamondNumberFormatter];
+        _DMDNumberFormatter = [self.class createDMDNumberFormatter];
+        _signedDMDNumberFormatter = [self.class createSignedDMDNumberFormatter];
         _decimalNumberFormatter = [self.class createDecimalNumberFormatter];
         _revnueNumberFormatter = [self.class createRevenueNumberFormatter];
         _ungroupedDecimalNumberFormatter = [self.class createUngroupedDecimalNumberFormatter];
@@ -62,7 +62,7 @@ static NSString * const kNilSymbol = @"--";
     return formatter;
 }
 
-+ (NSNumberFormatter *)createDiamondNumberFormatter {
++ (NSNumberFormatter *)createDMDNumberFormatter {
     NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
     formatter.numberStyle = NSNumberFormatterDecimalStyle;
     formatter.usesGroupingSeparator = YES;
@@ -72,8 +72,8 @@ static NSString * const kNilSymbol = @"--";
     return formatter;
 }
 
-+ (NSNumberFormatter *)createSignedDiamondNumberFormatter {
-    NSNumberFormatter *formatter = [self createDiamondNumberFormatter];
++ (NSNumberFormatter *)createSignedDMDNumberFormatter {
+    NSNumberFormatter *formatter = [self createDMDNumberFormatter];
     formatter.positivePrefix = @"+";
     formatter.negativePrefix = @"-";
     return formatter;

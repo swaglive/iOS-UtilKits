@@ -33,7 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  99999999999 -> 99,999,999,999
  */
-@property (strong, nonatomic, readonly) NSNumberFormatter *diamondNumberFormatter;
+@property (strong, nonatomic, readonly) NSNumberFormatter *DMDNumberFormatter;
 
 /**
  99999999999 -> 99,999,999,999
@@ -43,6 +43,6 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  99999 -> +99,999
  */
-@property (strong, nonatomic, readonly) NSNumberFormatter *signedDiamondNumberFormatter;
+@property (strong, nonatomic, readonly) NSNumberFormatter *signedDMDNumberFormatter;
 @end
 NS_ASSUME_NONNULL_END
