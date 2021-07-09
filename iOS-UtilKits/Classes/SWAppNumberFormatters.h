@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface SWAppNumberFormatters : NSObject
 
 + (instancetype)sharedInstance;
-+ (NSNumberFormatter *)createCurrencyFormatterWithLocale:(NSLocale *)locale;
++ (NSNumberFormatter *)createCRYFormatterWithLocale:(NSLocale *)locale;
 
 /**
  Original 99999 -> 99999
