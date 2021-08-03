@@ -44,13 +44,23 @@ public class URLStringBuilder {
         return build()
     }
     
-    private func build() -> String {
-        guard let baseString = base.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
-            var url = URL(string: baseString) else {
+    private func vailedURL() -> URL? {
+        guard let url = URL(string: base) else {
+            guard let baseString = base.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
+                  let encodeURL = URL(string: baseString) else {
                 assert(false, "the base url is illegal.")
-                return ""
+                return nil
+            }
+            
+            return encodeURL
         }
         
+        return url
+    }
+    
+    private func build() -> String {
+        guard var url = vailedURL() else { return "" }
+
         for path in paths {
             url.appendPathComponent(path)
         }
