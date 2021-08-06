@@ -41,4 +41,9 @@ public class LinkHeader:NSObject {
             self.prev = url
         }
     }
+    
+    
+    public init(prev: URL) {
+        self.prev = prev
+    }
 }
