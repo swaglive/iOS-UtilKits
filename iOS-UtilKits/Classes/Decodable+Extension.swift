@@ -18,4 +18,9 @@ extension Decodable {
         let data = try JSONSerialization.data(withJSONObject: dict)
         return try decode(data: data)
     }
+    
+    public static func decode(string: String) throws -> Self {
+        let data = Data(string.utf8)
+        return try decode(data: data)
+    }
 }
