@@ -16,4 +16,9 @@ extension Encodable {
         encoder.outputFormatting = .prettyPrinted
         return try encoder.encode(self)
     }
+    
+    public var jsonString: String? {
+        guard let jsonData = try? encode() else { return nil }
+        return jsonData.jsonString
+    }
 }
