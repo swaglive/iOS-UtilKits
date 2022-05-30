@@ -38,7 +38,11 @@ public class SynchronizedArray<T: Hashable> {
     }
 
     public func contains(member: T) -> Bool {
-        return arraySet.contains(member)
+        var retVal: Bool = false
+        accessQueue.sync {
+            retVal = arraySet.contains(member)
+        }
+        return retVal
     }
     
     public func remove(memeber: T) {
@@ -49,11 +53,9 @@ public class SynchronizedArray<T: Hashable> {
     
     public var count: Int {
         var count = 0
-
         self.accessQueue.sync {
             count = self.array.count
         }
-
         return count
     }
     
@@ -62,7 +64,11 @@ public class SynchronizedArray<T: Hashable> {
     }
     
     public var array: [T] {
-        return Array(arraySet)
+        var retVal: [T] = []
+        accessQueue.sync {
+            retVal = Array(arraySet)
+        }
+        return retVal
     }
 
 }
