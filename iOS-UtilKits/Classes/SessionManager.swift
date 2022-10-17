@@ -25,6 +25,18 @@ public class SessionManager : NSObject {
             delegate: sessionDelegate,
             delegateQueue: sessionQueue)
     }()
+    
+    public static let sessionWithNoCache: URLSession = {
+        let configuration = URLSessionConfiguration.default
+        configuration.httpMaximumConnectionsPerHost = 4
+        configuration.requestCachePolicy = .reloadIgnoringLocalCacheData
+        configuration.urlCache = nil
+        return URLSession(
+            configuration: configuration,
+            delegate: sessionDelegate,
+            delegateQueue: sessionQueue
+        )
+    } ()
 
     public static var sessionDelegate: URLSessionDelegate?
 }
