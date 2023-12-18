@@ -19,7 +19,12 @@ public class SessionManager : NSObject {
     
     public static let session: URLSession =  {
         let configuration = URLSessionConfiguration.default
-        configuration.httpMaximumConnectionsPerHost = 4
+        let cachesURL = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)[0]
+        configuration.urlCache = URLCache(
+            memoryCapacity: 25 * 1024 * 1024,
+            diskCapacity: 200 * 1024 * 1024,
+            directory: cachesURL.appendingPathComponent("HTTPCache")
+        )
         return URLSession(
             configuration: configuration,
             delegate: sessionDelegate,
